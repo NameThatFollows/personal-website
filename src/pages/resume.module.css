@@ -1,0 +1,62 @@
+.resumeSection {
+    margin: 0 auto 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.resumeSectionTitle {
+    flex-grow: 1;
+    width: 30%;
+    min-width: 200px;
+}
+
+.resumeSectionContent {
+    flex-grow: 1;
+    min-width: 350px;
+    width: 65%;
+    margin: 0 0 20px;
+}
+
+.resumeSectionContent h2 {
+    font-size: 16pt;
+}
+
+.resumeSectionContent h2:first-child {
+    margin: 6px 0 5px;
+}
+
+.resumeSectionContent h2:not(first-child) {
+    margin: 25px 0 5px;
+}
+
+.resumeSectionContent blockquote {
+    margin: 0 0 8px;
+    font-weight: 500;
+}
+
+.resumeSectionContent ul+blockquote {
+    margin: 20px 0 8px;
+}
+
+.resumeSectionContent blockquote p {
+    margin: 0;
+    font-size: 11pt;
+    line-height: 1.4;
+}
+
+.resumeSectionContent ul {
+    margin-left: 30px;
+}
+
+.resumeSectionContent li {
+    line-height: 1.4;
+    font-size: 12pt;
+}
+
+.resumeSectionContent li p {
+    margin: 0;
+}
+
+a {
+    color: black;
+}

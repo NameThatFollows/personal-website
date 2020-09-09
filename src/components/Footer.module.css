@@ -1,0 +1,15 @@
+.footer {
+    list-style-type: none;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin: 20px 7px 10px;
+}
