@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from 'gatsby';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -11,7 +12,9 @@ export default function Resume({ data }) {
   const sections = data.allMarkdownRemark.nodes.map((node) => {
     return (
       <div key={node.id} className={css.resumeSection}>
-        <h1 className={css.resumeSectionTitle}>{node.frontmatter.title}</h1>
+        <div className={css.resumeSectionTitleContainer}>
+          <h1 className={css.resumeSectionTitle}>{node.frontmatter.title}</h1>
+        </div>
         <div className={css.resumeSectionContent} dangerouslySetInnerHTML={{__html: node.html}} />
       </div>
     );

@@ -1,0 +1,47 @@
+.listTiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.listTile {
+    position: relative;
+    z-index: 1;
+    min-width: 350px;
+    width: 40%;
+    flex-grow: 1;
+}
+
+.listTileContent {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 40px;
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.listTileContent p {
+    margin-top: 25px;
+    font-size: 12pt;
+    line-height: 1.3;
+}
+
+.listTileImageOverlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 40px 5px #000000;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: all 0.3s;
+}
+
+.listTile:hover * + .listTileImageOverlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: all 0.3s;
+}

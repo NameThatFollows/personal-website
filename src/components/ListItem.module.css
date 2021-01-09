@@ -1,0 +1,47 @@
+.item button {
+    text-decoration: none;
+    border: 0;
+    background: none;
+    font-family: inherit;
+    outline: none;
+}
+
+.item button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.listItem {
+    line-height: 1.2;
+    width: 250px;
+    padding: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.listItem .address {
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+
+.listItem .comments {
+    flex-grow: 1;
+    font-size: 11pt;
+}
+
+.listItem .localeTrail {
+    margin-top: 10px;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+.listItem .localeTrail .item {
+    white-space: nowrap;
+    float: left;
+    margin-right: 4px;
+}

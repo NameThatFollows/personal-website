@@ -1,0 +1,46 @@
+{
+    "slug": "/lists/restaurants",
+    "name": "Restaurants",
+    "description": "All the restaurants I've eaten at, including dine-in, take-out, and delivery.",
+    "background": "../../images/restaurants.jpg",
+    "rankSlots": [
+        {
+            "rankSlotID": 1,
+            "title": "Fantastic: First Choice",
+            "description": "Great food and/or visited multiple times"
+        },
+        {
+            "rankSlotID": 2,
+            "title": "Great",
+            "description": "Worth visiting with great food"
+        },
+        {
+            "rankSlotID": 3,
+            "title": "Fine",
+            "description": "Nothing particularly special, but does the job"
+        },
+        {
+            "rankSlotID": 4,
+            "title": "Visited",
+            "description": "Have been, but wouldn't recommend"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "name": "375 Chicken & Fries",
+            "address": "124 Ludlow St, New York, NY 10002",
+            "locale": ["USA", "NY", "New York City", "Manhattan", "Lower East Side"],
+            "rankSlotID": 1,
+            "comments": "Parmesan Truffle Fries are my weakness, and the other food is really good. Chicken sandwiches are fine."
+        },
+        {
+            "id": 2,
+            "name": "Unidentified Flying Chickens - UFC",
+            "address": "71-22 Roosevelt Avenue, Jackson Heights, NY 11372",
+            "locale": ["USA", "NY", "New York City", "Queens", "Jackson Heights"],
+            "rankSlotID": 1,
+            "comments": "Really great value, great KFC and sandwiches."
+        }
+    ]
+}

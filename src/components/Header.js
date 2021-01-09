@@ -7,8 +7,8 @@ export default function Header(props) {
   const pages = [
     { name: 'Home', path: '/' },
     { name: 'Projects', path: '/projects' },
-    { name: 'Blogs', path: '/blogs' },
-    { name: 'Media', path: '/media' },
+    { name: 'Lists', path: '/lists' },
+    // { name: 'Media', path: '/media' },
     { name: 'Résumé', path: '/resume' },
   ];
   const navLinks = pages.map((pageInfo) => {

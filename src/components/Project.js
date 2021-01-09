@@ -6,7 +6,7 @@ import css from './Project.module.css';
 export default function Project({ node }) {
   const endDate = node.frontmatter.endDate === "Invalid date" ? "Present" : node.frontmatter.endDate;
   const projectHeader = node.frontmatter.link
-    ? <a href={node.frontmatter.link} target='_blank'><h1>{node.frontmatter.title}</h1></a>
+    ? <a href={node.frontmatter.link} target='_blank' rel='noreferrer'><h1>{node.frontmatter.title}</h1></a>
     : <h1>{node.frontmatter.title}</h1>
   return (
     <div className={css.project}>

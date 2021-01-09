@@ -1,0 +1,22 @@
+.listSection {
+    margin-top: 20px;
+}
+
+.listSection:first-child {
+    margin: 0px;
+}
+
+.listSection:last-child {
+    border: none;
+}
+
+.listSection header {
+    margin-bottom: 10px;
+}
+
+.listSectionItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    gap: 20px;
+    margin-bottom: 5px;
+}

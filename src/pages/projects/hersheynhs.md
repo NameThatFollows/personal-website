@@ -1,18 +1,18 @@
 ---
 type: "project"
-title: "Hershey NHS Website (V2)"
+title: "Hershey NHS Website"
 startDate: "2018-01-01"
 endDate: "2018-02-01"
 featuredImage: ../../images/hersheynhs.jpg
 link: https://github.com/NameThatFollows/hersheynhs
 ---
 
-A self-service web application for Hershey High School NHS members, officers, and advisors.
+A self-service portal for Hershey High School National Honor Society members, officers, and advisors.
 
-This website allows for members of Hershey High School's National Honor Society to access accumulated service hours, requirements, event signups, important forms, and FAQs.
+This portal allows Hershey's NHS members to access their tracked service hours, yearly requirements, event signups, important forms, and other important information.
 
-Officers and advisors can edit website content, add/edit/remove events, and service hours for members. This consolidated previously all-paper records into a single location.
+Officers and advisors can edit website content, add/edit/remove event signups, and service hours for each member.
 
 This website has been used by 600+ students since initial launch and is still currently being used in production.
 
-Note: This was originally developed in August 2015 with less-than-ideal information management. Password management, most notably, uses a student's ID # by design and thus is not stored securely.
+The source of truth for the site is stored separately from the internal database for simplicity. Similarly, passwords are stored in plain text since the site stores no sensitive information.

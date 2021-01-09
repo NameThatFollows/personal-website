@@ -1,13 +1,19 @@
 .resumeSection {
-    margin: 0 auto 20px;
+    margin: 0 auto 30px;
     display: flex;
     flex-flow: wrap;
 }
 
-.resumeSectionTitle {
-    flex-grow: 1;
+.resumeSectionTitleContainer {
     width: 30%;
     min-width: 200px;
+    flex-grow: 1;
+}
+
+.resumeSectionTitle {
+    position: sticky;
+    top: 15px;
+    align-self: flex-start;
 }
 
 .resumeSectionContent {
@@ -22,15 +28,15 @@
 }
 
 .resumeSectionContent h2:first-child {
-    margin: 6px 0 5px;
+    margin: 7px 0 0px;
 }
 
-.resumeSectionContent h2:not(first-child) {
-    margin: 25px 0 5px;
+.resumeSectionContent h2:not(:first-child) {
+    margin: 25px 0 0px;
 }
 
 .resumeSectionContent blockquote {
-    margin: 0 0 8px;
+    margin: 4px 0 8px;
     font-weight: 500;
 }
 
@@ -59,4 +65,8 @@
 
 a {
     color: black;
+}
+
+blockquote p {
+    padding: 0 0 3px;
 }

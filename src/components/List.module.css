@@ -1,0 +1,31 @@
+.list {
+}
+
+.listHeader {
+    display: flex;
+    margin: 0 0 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.listHeader h1 {
+    margin-right: 30px;
+}
+
+.listHeader div {
+    flex-grow: 1;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+.listHeader div input {
+    padding: 10px;
+    width: 100%;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.list hr {
+    margin: 15px 0 30px;
+}
