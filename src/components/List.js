@@ -58,12 +58,12 @@ export default function List({ data }) {
               items={Array.from(uniqueLocales).sort()}
               renderItem={(item, isHighlighted) =>
                 <div
-                  key={item}
-                  style={{
-                    background: isHighlighted ? '#EEEEEE' : '',
-                    cursor: 'default',
-                    padding: '5px 10px'
-                  }}>
+                key={item}
+                style={{
+                  background: isHighlighted ? '#EEEEEE' : '',
+                  cursor: 'default',
+                  padding: '5px 10px'
+                }}>
                   {item}
                 </div>
               }
@@ -84,8 +84,9 @@ export default function List({ data }) {
               shouldItemRender={(item, value) => isSubsequence(value, item)}
               onChange={(e) => setSearchTerm(e.target.value)}
               onSelect={(value) => setSearchTerm(value)}
-            />
+              />
           </header>
+          <p>{node.additionalInfo}</p>
           {listSections}
         </div>
       </div>
@@ -102,6 +103,7 @@ export const query = graphql`
         slug
         name
         description
+        additionalInfo
         rankSlots {
           rankSlotID
           title
@@ -113,7 +115,7 @@ export const query = graphql`
           address
           locale
           rankSlotID
-          comments
+          orders
         }
       }
     }

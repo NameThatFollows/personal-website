@@ -13,7 +13,7 @@ export default function ListSection(props) {
           name={item.name}
           locale={item.locale}
           address={item.address}
-          comments={item.comments}
+          orders={item.orders}
           localeSearch={props.localeSearch} />
       );
     }

@@ -2,27 +2,28 @@
     "slug": "/lists/bubble-tea",
     "name": "Bubble Tea",
     "description": "Places that sell the Taiwanese cold drink made with tea, milk, and tapioca pearls and other variations.",
+    "additionalInfo": "Each order is in the following format: Drink Name; Hot or Cold/Sugar Level/Ice Level",
     "background": "../../images/bubble-tea.jpg",
     "rankSlots": [
         {
             "rankSlotID": 1,
             "title": "Fantastic",
-            "description": "Really tasty bubble tea and/or unique concepts. If I could only go to once place, it'd be one of these"
+            "description": "If I could only go to one place, any of these would be great."
         },
         {
             "rankSlotID": 2,
             "title": "Great",
-            "description": "Great bubble tea and worth visiting if you're in the area."
+            "description": "Great option if you are in the area."
         },
         {
             "rankSlotID": 3,
             "title": "Fine",
-            "description": "Pretty standard bubble tea without anything really setting it apart."
+            "description": "Good option if there isn't anything better in the area."
         },
         {
             "rankSlotID": 4,
             "title": "Visited",
-            "description": "Have been, but wouldn't recommend"
+            "description": "Have been but would definitely not recommend."
         }
     ],
     "items": [
@@ -32,7 +33,9 @@
             "address": "3420 18th St #001, San Francisco, CA 94110",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
             "rankSlotID": 1,
-            "comments": "Delicious teas and interesting specialty drinks. One of the few places that sells a Ube Taro Latte! Unrelated, but it also has super fast free Wi-Fi."
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 2,
@@ -40,7 +43,10 @@
             "address": "341 Kearny St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
             "rankSlotID": 1,
-            "comments": "Rich and generally delicious bubble tea, and they have a glass bottle option. They also have a non-powder taro milk tea and other interesting specialty drinks."
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%",
+                "Thai Tea Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 3,
@@ -48,7 +54,9 @@
             "address": "253 Kearny St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 3,
-            "comments": "Bubble tea isn't anything particularly special, but it is decent. Location was cash only under a certain amount. "
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 4,
@@ -56,7 +64,10 @@
             "address": "429 Stockton St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 2,
-            "comments": "Muscat Oolong is one of a kind. They're know for their long lines. This location is very small, so the line is outside along a busy street."
+            "orders": [
+                "Strawberry Matcha Latte w/ Boba; C/100%/0%",
+                "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 5,
@@ -64,7 +75,9 @@
             "address": "272 O'Farrell St, San Francisco, CA 94102",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 2,
-            "comments": "Standard Gong Cha location, but the drinks coupled with its proximity to Union Square and Powell St BART and MUNI gives this place extra points for convenience."
+            "orders": [
+                "Panda Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 6,
@@ -72,7 +85,10 @@
             "address": "320 O'Farrell St, San Francisco, CA 94102",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 1,
-            "comments": "Small location with fairly limited options, but the drinks they offer are delicious, especially the Mango Matcha Latte and the Roasted Oolong Milk Tea"
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%",
+                "Mango Matcha Latte w/ Boba; C/100%/0%"
+            ]
         },
         {
             "id": 7,
@@ -80,7 +96,9 @@
             "address": "2164 Center St, Berkeley, CA 94704",
             "locale": ["USA", "SF Bay Area", "East Bay", "Berkeley"],
             "rankSlotID": 3,
-            "comments": "Standard milk teas with wide cups being the primary gimmick."
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 8,
@@ -88,7 +106,9 @@
             "address": "362 8th St, Unit A, Oakland, CA 94607",
             "locale": ["USA", "SF Bay Area", "East Bay", "Oakland", "Chinatown"],
             "rankSlotID": 2,
-            "comments": "The drinks and homemade boba were pretty good, but the location itself was really dead and the staff were less than receptive when I went."
+            "orders": [
+                "Charcoal Latte w/ Sesame Boba; C/50%/0%"
+            ]
         },
         {
             "id": 9,
@@ -96,7 +116,15 @@
             "address": "2361 Broadway, Redwood City, CA 94063",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Redwood City"],
             "rankSlotID": 1,
-            "comments": "Huge variety of different teas, super aesthetic three-layer drinks, and fantastic shaved ice as a bonus. Located just blocks away from Redwood City Caltrain and Courthouse Square."
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Honey Boba; C/50%/0%",
+                "High Mountain Oolong Milk Tea w/ Honey Boba; C/50%/0%",
+                "Osmanthus Oolong Milk Tea w/ Honey Boba; C/50%/0%",
+                "Rose Petal Oolong Milk Tea w/ Honey Boba; C/50%/0%",
+                "White Grape Oolong Milk Tea w/ Honey Boba; C/50%/0%",
+                "Peach Oolong Milk Tea w/ Honey Boba; C/50%/0%",
+                "Strawberry Matcha Latte w/ Honey Boba; C/100%/0%"
+            ]
         },
         {
             "id": 10,
@@ -104,15 +132,21 @@
             "address": "32-02 34th Avenue, Astoria, NY 11106, US",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
             "rankSlotID": 1,
-            "comments": "One of just a few places in NYC that creates their own special bubble tea combinations. Some combinations seem weird at first, but the ones I've had have all been great. Also has some great bahn mis available."
+            "orders": [
+                "Dark Roasted Oolong Milk Tea w/ Boba; C/50%/0%",
+                "Cocoa Oolong Milk Tea w/ Boba; C/50%/0%",
+                "Strawberry Matcha Latte w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 11,
             "name": "T4",
             "address": "165 University Avenue #D, Palo Alto, CA, 94301",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Palo Alto"],
-            "rankSlotID": 2,
-            "comments": "Would frequent this location when I was in Palo Alto. Bubble tea is great, but nothing special that would justify a trip."
+            "rankSlotID": 3,
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 12,
@@ -120,7 +154,9 @@
             "address": "540 Bryant St, Palo Alto, CA 94301",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Palo Alto"],
             "rankSlotID": 2,
-            "comments": "Standard Sharetea location in downtown Palo Alto, but not any different than other locations in the Bay Area."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 13,
@@ -128,15 +164,19 @@
             "address": "7372 Thornton Avenue, Newark, CA 94560",
             "locale": ["USA", "SF Bay Area", "East Bay", "Newark"],
             "rankSlotID": 1,
-            "comments": "Bought a drink during an event, so I haven't gone to their physical location, but the bubble tea is a tea + foam + topping combination that is very instagrammable and very tasty."
+            "orders": [
+                "Dark Roasted Black Tea w/ Matcha Milk Foam, Boba; C/50%/0%"
+            ]
         },
         {
             "id": 14,
             "name": "Sharetea",
             "address": "865 Market St, San Francisco, CA 94103",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
-            "rankSlotID": 1,
-            "comments": "Standard Sharetea location located inside the Westfield. This location gets bonus points for being accessible via the BART/MUNI concourse without having to go outside and generally quick service."
+            "rankSlotID": 2,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 15,
@@ -144,7 +184,9 @@
             "address": "3491 19th St, San Francisco, CA 94110",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
             "rankSlotID": 1,
-            "comments": "Similar story to their location on Stockton, but the store is slightly larger with some seating and a much quieter streetscape when there's a line."
+            "orders": [
+                "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 16,
@@ -152,7 +194,10 @@
             "address": "75 9th Ave, Chelsea Market Lower Level, New York, NY 10011, US",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chelsea"],
             "rankSlotID": 1,
-            "comments": "Similar to their Astoria location but is a stand instead of a physical storefront, so it can get a bit cramped. Drinks are fantastic!"
+            "orders": [
+                "Strawberry Matcha Latte w/ Boba; C/50%/0%",
+                "Tangerine Matcha Latte w/ Boba; C/50%/50%"
+            ]
         },
         {
             "id": 17,
@@ -160,7 +205,10 @@
             "address": "4023 18th St, San Francisco, CA 94114",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Castro"],
             "rankSlotID": 1,
-            "comments": "One of the only bubble tea locations in the Castro, and a really great location at that. Their strawberry-matcha latte is arguably better (and more aesthetic) than that of Boba Guys, and they have many more options available."
+            "orders": [
+                "Matcha Blossom w/ Boba; C/100%/0%",
+                "Dirty Panda w/ Boba; C/100%/0%"
+            ]
         },
         {
             "id": 18,
@@ -168,7 +216,9 @@
             "address": "841 W Las Tunas Dr, San Gabriel, CA 91776",
             "locale": ["USA", "LA Metro Area", "San Gabriel"],
             "rankSlotID": 2,
-            "comments": "Have not gone to their physical location, but the drink I got at an event was really great with a distinct tea flavor."
+            "orders": [
+                "Assam Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 19,
@@ -176,7 +226,10 @@
             "address": "68 Cooper Sq, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "NoHo"],
             "rankSlotID": 1,
-            "comments": "Fairly limited in terms of variety, but the drinks are really great for the options they do have. This location in particular is near NYU, St. Marks Pl, and might as well be on top of the 6 train station."
+            "orders": [
+                "The Alley Trio Milk Tea; C/50%/0%",
+                "Royal No 9 Milk Tea; C/50%/0%"
+            ]
         },
         {
             "id": 20,
@@ -184,7 +237,9 @@
             "address": "85 Kenmare St, New York, NY 10012",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Nolita"],
             "rankSlotID": 1,
-            "comments": "Definitely very unique and delicious tea lattes, but also known for their boba soft serve."
+            "orders": [
+                "Oolong Tea Latte w/ Regular Bubbles; C/50%/0%"
+            ]
         },
         {
             "id": 21,
@@ -192,7 +247,9 @@
             "address": "1134B Broadway, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "NoMad"],
             "rankSlotID": 3,
-            "comments": "The milk tea is pretty average, but my order came with a metal straw and sturdy reusable plastic container."
+            "orders": [
+                "Signature Milk Tea w/ Lychee Jelly; C/50%/0%"
+            ]
         },
         {
             "id": 22,
@@ -200,7 +257,9 @@
             "address": "132 N 10th St, Philadelphia, PA 19107",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "Chinatown"],
             "rankSlotID": 3,
-            "comments": "The tea here was fairly watery and wasn't anything particularly special."
+            "orders": [
+                "Coconut Milk Tea w/ Boba, C/50%/0%"
+            ]
         },
         {
             "id": 23,
@@ -208,7 +267,9 @@
             "address": "1006 Arch St, Philadelphia, PA 19107",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "Chinatown"],
             "rankSlotID": 2,
-            "comments": "Standard Kung Fu Tea location with the menu and convenience that comes with the chain. "
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 24,
@@ -216,7 +277,9 @@
             "address": "4600 Jonestown Rd, Harrisburg, PA 17109",
             "locale": ["USA", "South Central PA", "Harrisburg", "Colonial Park"],
             "rankSlotID": 3,
-            "comments": "Location does primarily powdered bubble tea and the boba is fairly tasteless, but it is also one of the only bubble tea places in the region."
+            "orders": [
+                "Coffee Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 25,
@@ -224,7 +287,9 @@
             "address": "6122-B Arlington Blvd, Falls Church, VA 22044",
             "locale": ["USA", "DC Metro Area", "VA", "Falls Church"],
             "rankSlotID": 2,
-            "comments": "Known for their cheese tea, the location has surprisingly rich and creamy drinks. They use a milk tea base with mix-ins like oreo and red bean, which limits options. Location is not quite worth the Metrobus trip if you are not local."
+            "orders": [
+                "Creme Brulee Bubble Tea w/ Chewy Regular Bubble; C/50%/0%"
+            ]
         },
         {
             "id": 26,
@@ -232,7 +297,9 @@
             "address": "519 H St NW, Washington, DC 20001",
             "locale": ["USA", "DC Metro Area", "DC", "Chinatown"],
             "rankSlotID": 2,
-            "comments": "Standard Sharetea location with great drinks consistent with other Sharetea locations. It should be noted that the location is not wheelchair accessible"
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 27,
@@ -240,7 +307,10 @@
             "address": "935 Peachtree St NE UNIT 935, Atlanta, GA 30309",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown"],
             "rankSlotID": 3,
-            "comments": "Bubble teas are generally more watery than milky, but it is also one of only a few bubble tea places in the city limits and in Midtown. Also serves food, so check out the entry on my Restaurants list."
+            "orders": [
+                "Oolong Milk Tea w/ Boba, Lychee Jelly; C/50%/0%",
+                "Hong Kong Milk Tea w/ Boba, Lychee Jelly; C/50%/0%"
+            ]
         },
         {
             "id": 28,
@@ -248,7 +318,10 @@
             "address": "2 Park Pl NE South, Atlanta, GA 30303",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Downtown"],
             "rankSlotID": 2,
-            "comments": "Standard Kung Fu Tea location on the GSU campus and close proximity to Five Points MARTA."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%",
+                "Black Honey Tea Cap w/ Boba, C/100%/0%"
+            ]
         },
         {
             "id": 29,
@@ -256,7 +329,9 @@
             "address": "5280 Buford Hwy NE, Doraville, GA 30340",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 2,
-            "comments": "Standard Kung Fu Tea location on Buford Highway, but not worth the trip out unless you happen to be in the area."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 30,
@@ -264,7 +339,9 @@
             "address": "5302 Buford Hwy NE A3, Atlanta, GA 30340",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 2,
-            "comments": "Pretty decent bubble tea and better than Kung Fu Tea right nearby, but doesn't do anything special that makes a dedicated trip worth it."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 31,
@@ -272,7 +349,9 @@
             "address": "5150 Buford Hwy NE C150, Doraville, GA 30340",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 1,
-            "comments": "Serves golden boba in addition to regular boba, and a large selection of high quality drinks."
+            "orders": [
+                "Oolong Milk Tea w/ Golden Boba; C/50%/0%"
+            ]
         },
         {
             "id": 32,
@@ -280,7 +359,9 @@
             "address": "6035 Peachtree Rd Suite A117, Doraville, GA 30360",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 2,
-            "comments": "On the milkier side of bubble teas and pretty tasty, but the bubble tea also leaves a strange aftertaste, likely due to the dairy-free creamers."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 33,
@@ -288,7 +369,9 @@
             "address": "2300 Pleasant Hill Rd, Duluth, GA 30096",
             "locale": ["USA", "Atlanta Metro Area", "Duluth"],
             "rankSlotID": 4,
-            "comments": "Milk tea was very watery, boba had no flavor, and was the first time I was disappointed after drinking a bubble tea."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 34,
@@ -296,7 +379,9 @@
             "address": "488 Fell St, San Francisco, CA, 94102",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Hayes Valley"],
             "rankSlotID": 3,
-            "comments": "On the more watery side of bubble teas, and it is fairly expensive relative to what you get."
+            "orders": [
+                "White Grape Milk Tea w/ Honey Boba; C/50%/0%"
+            ]
         },
         {
             "id": 35,
@@ -304,7 +389,9 @@
             "address": "The Shops at Tanforan, Tanforan Way, San Bruno, CA 94066",
             "locale": ["USA", "SF Bay Area", "Peninsula", "San Bruno"],
             "rankSlotID": 3,
-            "comments": "Known more for their cheese teas, they have a normal bubble tea option that does the job, and was one of the only places you can get a bubble tea in San Bruno."
+            "orders": [
+                "Boba Milk Tea; C/50%/0%"
+            ]
         },
         {
             "id": 36,
@@ -312,7 +399,9 @@
             "address": "13350 San Pablo Ave, San Pablo, CA 94806",
             "locale": ["USA", "SF Bay Area", "East Bay", "San Pablo"],
             "rankSlotID": 3,
-            "comments": "Standard T4 location but leaves a little more to be desired compared to the Palo Alto location."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 37,
@@ -320,7 +409,9 @@
             "address": "75 O'Farrell St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 1,
-            "comments": "Drinks have a great balance of tea flavor and sweetness that I haven't seen at other locations. "
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 38,
@@ -328,7 +419,10 @@
             "address": "103 Waverly Pl, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
             "rankSlotID": 3,
-            "comments": "Definitely closer to the powdery side of bubble teas, and their large size is absurdly large."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%",
+                "Oolong Lychee Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 39,
@@ -336,7 +430,9 @@
             "address": "652 Market St, San Francisco, CA 94104",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 3,
-            "comments": "Standard CoCo location, notable for having a location on Market St. "
+            "orders": [
+                "3 Guys; C/50%/0%"
+            ]
         },
         {
             "id": 40,
@@ -344,7 +440,9 @@
             "address": "827 Sacramento St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
             "rankSlotID": 2,
-            "comments": "Pretty unique milk tea that has a variety of brewed teas and flavors"
+            "orders": [
+                "Dirty Chai w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 41,
@@ -352,7 +450,9 @@
             "address": "110 E San Fernando St, San Jose, CA 95112",
             "locale": ["USA", "SF Bay Area", "South Bay", "San Jose", "Downtown"],
             "rankSlotID": 3,
-            "comments": "There was not anything special about this location aside from being one of a few dedicated bubble tea places in Downtown."
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Honey Boba; C/50%/0%"
+            ]
         },
         {
             "id": 42,
@@ -360,7 +460,9 @@
             "address": "8 Tyler St, Boston, MA 02111",
             "locale": ["USA", "Boston Metro Area", "Boston", "Chinatown"],
             "rankSlotID": 3,
-            "comments": "Similar to the Philadelphia Chinatown location, but with the bonus that it is open later."
+            "orders": [
+                "Oolong Milk Tea w/ Tapioca Pearl; C/50%/0%"
+            ]
         },
         {
             "id": 43,
@@ -368,7 +470,9 @@
             "address": "3865 Venture Dr A, Duluth, GA 30096",
             "locale": ["USA", "Atlanta Metro Area", "Duluth"],
             "rankSlotID": 3,
-            "comments": "Decent bubble tea, but nothing particularly unbelibubble."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 44,
@@ -376,7 +480,9 @@
             "address": "265 18th St NW #4120A, Atlanta, GA 30363",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Atlantic Station"],
             "rankSlotID": 4,
-            "comments": "The purchase of the bubble tea here seemed forced, and while it seemed like they brewed their own tea, the drink was definitely closer to sugary tea with a hint of cream, and the boba was tasteless."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 45,
@@ -384,7 +490,9 @@
             "address": "142 Park City Center, Lancaster, PA 17601",
             "locale": ["USA", "South Central PA", "Lancaster", "Park City Center"],
             "rankSlotID": 4,
-            "comments": "A powdered bubble tea location, but located in a region that has very few places that sell bubble tea."
+            "orders": [
+                "Coffee Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 46,
@@ -392,7 +500,9 @@
             "address": "3109 24th St, San Francisco, CA 94110",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
             "rankSlotID": 2,
-            "comments": "The bubble tea was pretty tasty and is also adjacent to a poke place, but selection was fairly limited."
+            "orders": [
+                "Dulce de Leche w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 47,
@@ -400,7 +510,9 @@
             "address": "216 N 10th St, Philadelphia, PA 19107",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "Chinatown"],
             "rankSlotID": 3,
-            "comments": "On the watery side of bubble tea and rather inconvenient to get to."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 48,
@@ -408,7 +520,9 @@
             "address": "3816-36 Chestnut St #36, Philadelphia, PA 19104",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "University City"],
             "rankSlotID": 1,
-            "comments": "I was plesantly surprised with this location given my experience with Tea Do. The bubble tea was not too creamy and not too sweet and the boba was flavorful."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 49,
@@ -416,7 +530,9 @@
             "address": "798 Ponce De Leon Ave NE, Atlanta, GA 30306",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Virginia-Highland"],
             "rankSlotID": 3,
-            "comments": "This place could certainly be more convenient as there is not too much adjacent to this location. The bubble tea was pretty meh overall."
+            "orders": [
+                "Signiture Royal Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 50,
@@ -424,7 +540,9 @@
             "address": "240 Canal St, New York, NY 10013",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 2,
-            "comments": "Creamy bubble tea and a distinct flavor, located directly above Canal St 6NQRWJZ"
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 51,
@@ -432,7 +550,10 @@
             "address": "99 Chrystie St #5016, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 1,
-            "comments": "Boba + tea + milk foam combination that, while separate from their actual milk tea option, is delicious and certainly a departure from the creamy, oversweetend drinks. "
+            "orders": [
+                "Rose Oolong Tea w/ Matcha Milk Foam, Boba; C/50%/0%",
+                "Lightly Roasted Oolong Tea w/ Matcha Milk Foam, Boba; C/50%/0%"
+            ]
         },
         {
             "id": 52,
@@ -440,7 +561,9 @@
             "address": "40-10 #A, Main St, Flushing, NY 11354",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 3,
-            "comments": "This chain has a lot of hype surrounding it. Their drinks are aeshetic but also almost exclusively the brown sugar variety. Lines are usually pretty long, with the added inconvenience of the line situated along one the busiest pedestian streets in the city."
+            "orders": [
+                "Brown Sugar Black Tea w/ Pearls; H/100%/0%"
+            ]
         },
         {
             "id": 53,
@@ -448,7 +571,9 @@
             "address": "156 Lawrence St, Brooklyn, NY 11201",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Downtown"],
             "rankSlotID": 2,
-            "comments": "A standard Gong Cha location with close proximity to the Fulton Mall and a great option if you're in Downtown Brooklyn."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 54,
@@ -456,7 +581,9 @@
             "address": "73 Mott St, New York, NY 10013",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 3,
-            "comments": "Definitely good bubble teas, but the drinks weren't anything super special."
+            "orders": [
+                "King's Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 55,
@@ -464,7 +591,10 @@
             "address": "227 E 14th St, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 2,
-            "comments": "Drinks are pretty great but also pretty standard."
+            "orders": [
+                "Oolong Milk Tea w/ Mini Boba; C/50%/0%",
+                "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
+            ]
         },
         {
             "id": 56,
@@ -472,15 +602,19 @@
             "address": "44-68 21st St, Long Island City, NY 11101",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
             "rankSlotID": 1,
-            "comments": "One of the only bubble tea places on the southern half of Long Island City. Their tea lattes have a great mix of tea and milk flavors, and their mini-boba is the main thing that keeps me going back."
+            "orders": [
+                "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
+            ]
         },
         {
             "id": 57,
             "name": "Rabbit Rabbit Tea",
             "address": "110-112 E 23rd St, New York, NY 10010",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Flatiron District"],
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Flatiron"],
             "rankSlotID": 2,
-            "comments": "Great location, great drinks. "
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 58,
@@ -488,7 +622,9 @@
             "address": "1000 8th Ave #29, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Columbus Circle"],
             "rankSlotID": 3,
-            "comments": "The bubble tea is fine, but nothing to write home about. This place gets points for its location in the Turnstyle Market underneath Columbus Circle and its proximity to 59th-Columbus Circle station."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 59,
@@ -496,7 +632,9 @@
             "address": "265 Canal St, New York, NY",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 1,
-            "comments": "Formerlly Boba Guys, the drinks are shared with that of Boba Guys, and with that comes the quality and lines I expect from Boba Guys."
+            "orders": [
+                "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 60,
@@ -504,7 +642,9 @@
             "address": "162 E 25th St, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 2,
-            "comments": "Overall great bubble tea place, with some aesthetic drinks and tasty boba. "
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 61,
@@ -512,7 +652,9 @@
             "address": "136-20 38th Ave, Flushing, NY 11354",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 3,
-            "comments": "Otherwise decent Kung Fu Tea location, but the milk tea here isn't anything to write home about."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 62,
@@ -520,7 +662,9 @@
             "address": "136-20 Roosevelt Ave, Flushing, NY 11354",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 4,
-            "comments": "Unexpectedly terrible. The tea had a strange taste to it that made me throw out the drink before finishing. "
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 63,
@@ -528,7 +672,10 @@
             "address": "11 Waverly Pl, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
             "rankSlotID": 1,
-            "comments": ""
+            "orders": [
+                "Strawberry Matcha Latte w/ Boba; C/50%/0%",
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 64,
@@ -536,7 +683,9 @@
             "address": "64 7th Ave, New York, NY 10011",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chelsea"],
             "rankSlotID": 3,
-            "comments": "Bubble tea here is rather uninspired but does the job."
+            "orders": [
+                "Classic Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 65,
@@ -544,15 +693,21 @@
             "address": "47 W 14th St #3, New York, NY 10011",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 1,
-            "comments": "Fantastic and authentic milk tea and boba and served in paper cups, which also means you can't see the drink when you get it, but is more environmentally mindful."
+            "orders": [
+                "Amber Oolong Milk Tea w/ Brown Sugar Tapioca; C/50%/0%",
+                "Golden Oolong Tea Latte w/ Tapioca; C/50%/0%",
+                "Deap Roatsed Oolong Milk Tea w/ Tapioca; C/50%/0%"
+            ]
         },
         {
             "id": 66,
             "name": "Anda Cafe",
             "address": "124A Hester St, New York, NY, 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
-            "rankSlotID": 2,
-            "comments": "Great bubble tea, but nothing particularly unique about their drinks."
+            "rankSlotID": 3,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 67,
@@ -560,7 +715,9 @@
             "address": "805 8th Ave, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
             "rankSlotID": 2,
-            "comments": "Great bubble tea place near the theater district, and great selection of drinks and snacks. THe taste is very distinct, so some may not enjoy it as much."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 68,
@@ -568,15 +725,19 @@
             "address": "11 W 32nd St #9, New York, NY 10001",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
             "rankSlotID": 3,
-            "comments": "Standard Kung Fu Tea location, but cash only below a certain amount, which means you can't use your rewards at this location unless you buy at least 2 drinks."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 69,
             "name": "Panda Bubble Tea",
             "address": "858 Lexington Ave, New York, NY 10035",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lenox Hill"],
-            "rankSlotID": 3,
-            "comments": "Gets the job done, but the drink and boba are pretty bland."
+            "rankSlotID": 4,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 70,
@@ -584,7 +745,9 @@
             "address": "33 St Marks Pl, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
             "rankSlotID": 1,
-            "comments": "Normal Yi Fang location, so great bubble tea and mini boba."
+            "orders": [
+                "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
+            ]
         },
         {
             "id": 71,
@@ -592,7 +755,9 @@
             "address": "1600 Broadway, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
             "rankSlotID": 2,
-            "comments": "Right in the heart of Times Square, this location is extremely convenient if you happen to be in the area, and has great and consistent drinks."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 72,
@@ -600,7 +765,11 @@
             "address": "284 3rd Ave, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 1,
-            "comments": "Great Yaya Tea location with great drinks and boba. "
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%",
+                "I Love Yaya Fruit Tea; C/50%/0%",
+                "Boyfriend Fruit Tea; C/50%/0%"
+            ]
         },
         {
             "id": 73,
@@ -608,15 +777,20 @@
             "address": "23 Clinton St, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lower East Side"],
             "rankSlotID": 1,
-            "comments": "Formerly Boba Guys, Lazy Sundaes still has the same drinks and same quality, and do a great job with unique flavor combinations, not to mention great online ordering for pickup."
+            "orders": [
+                "Strawberry Matcha Latte w/ Boba; C/50%/0%",
+                "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 74,
-            "name": "KOI Thé",
+            "name": "Fiftylan",
             "address": "189 Bleecker St, New York, NY 10012",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
             "rankSlotID": 1,
-            "comments": "Really great bubble tea and really tasty golden boba. "
+            "orders": [
+                "Golden Bubble Milk Tea; C/50%/0%"
+            ]
         },
         {
             "id": 75,
@@ -624,23 +798,30 @@
             "address": "133-41 41st Ave, Flushing, NY 11355",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 1,
-            "comments": "Really great bubble tea, with boba that is softer than usual. This location is cash only below a certain amount."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 76,
             "name": "Gong Cha",
             "address": "160 E 44th St, New York, NY 10017",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
-            "rankSlotID": 1,
-            "comments": "Standard Gong Cha location, but super consistent in quality of milk tea and boba."
+            "rankSlotID": 2,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 77,
-            "name": "KOI Thé",
+            "name": "Fiftylan",
             "address": "32 Union Square E, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 1,
-            "comments": "Fantastic bubble tea with golden boba and really friendly staff. "
+            "orders": [
+                "Golden Bubble Milk Tea; C/50%/0%",
+                "Ceylon Black Tea Latte w/ Golden Bubble; C/50%/0%"
+            ]
         },
         {
             "id": 78,
@@ -648,15 +829,19 @@
             "address": "75 W 38th St, New York, NY 10018",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Bryant Park"],
             "rankSlotID": 3,
-            "comments": "Standard Gong Cha location tucked away off 6th Ave, but tea wasn't quite as rich as Gong Cha usually is."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 79,
             "name": "Dragon Horn Tea",
             "address": "106 Greenwich St, New York, NY 10006",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Financial District"],
-            "rankSlotID": 2,
-            "comments": "Great milk tea and boba in one of the only bubble tea places in FiDi."
+            "rankSlotID": 3,
+            "orders": [
+                "Roasted Tie Guanyin Milk Tea w/ Brown Sugar Bubble; C/50%/0%"
+            ]
         },
         {
             "id": 80,
@@ -664,7 +849,9 @@
             "address": "749 Grand St, Brooklyn, NY 11211",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Williamsburg"],
             "rankSlotID": 2,
-            "comments": "Decent bubble tea and flavors, but boba is fairly bland."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 81,
@@ -672,7 +859,9 @@
             "address": "7 E 14th St, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 3,
-            "comments": "Bubble tea is decent but nothing special."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 82,
@@ -680,7 +869,10 @@
             "address": "2309 Astoria Blvd, Astoria, NY 11102",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
             "rankSlotID": 1,
-            "comments": "The milk tea tastes fantastic, and the tea + milk flavors mix super well to create a really rich drink."
+            "orders": [
+                "Classic Milk Tea w/ Boba; C/50%/0%",
+                "Rose Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 83,
@@ -688,7 +880,9 @@
             "address": "7115 3rd Ave, Brooklyn, NY 11209",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Bay Ridge"],
             "rankSlotID": 2,
-            "comments": "One of few locations in Bay Ridge, but the store itself is really cute and the staff are very friendly. The bubble tea is pretty decent, and the boba itself tastes great."
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Tapioca; C/50%/0%"
+            ]
         },
         {
             "id": 84,
@@ -696,7 +890,9 @@
             "address": "61 Lexington Ave, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Kips Bay"],
             "rankSlotID": 1,
-            "comments": "Great Yi Fang location, with quality drinks, mini-boba, and accepts cards with no surcharge."
+            "orders": [
+                "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
+            ]
         },
         {
             "id": 85,
@@ -704,7 +900,9 @@
             "address": "26B Elizabeth St, New York, NY 10013",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 1,
-            "comments": "Really tasty bubble tea, unique flavors, and soft boba. Boba is also cooked fresh."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 86,
@@ -712,15 +910,19 @@
             "address": "690 W Dekalb Pike Ste 1071, King of Prussia, PA 19406",
             "locale": ["USA", "Philly Metro Area", "King of Prussia"],
             "rankSlotID": 3,
-            "comments": "On the watery side of bubble teas, and the boba is not super flavorful, but it's one of the only options in the KOP area. "
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 87,
             "name": "Kung Fu Tea",
             "address": "115 E 23rd St, New York, NY 10010",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Flatiron District"],
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Flatiron"],
             "rankSlotID": 3,
-            "comments": "This location is combined with a TKK Fried Chicken, making it a decent option for a meal. This is an otherwise normal Kung Fu Tea location, but they tend to underfill drinks, and the drinks don't taste as flavorful as other locations."
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 88,
@@ -728,7 +930,9 @@
             "address": "51 Christie St, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 2,
-            "comments": "Great milk teas with plenty of options. Boba has great flavor. "
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 89,
@@ -736,7 +940,9 @@
             "address": "110 3rd Ave, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
             "rankSlotID": 1,
-            "comments": "The primary gimmick is a wide variety of different types of boba, including mango, taro, and sesame. The boba itself is arguably light in flavor, but an interesting departure from the standard bubble tea."
+            "orders": [
+                "Oolong Tea Latte w/ One Zo Boba; C/50%/0%"
+            ]
         },
         {
             "id": 90,
@@ -744,7 +950,9 @@
             "address": "71 Smith St, Brooklyn, NY 11201",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Downtown"],
             "rankSlotID": 1,
-            "comments": "Definitely on the creamier side, but still pretty tasty. There are wide variety of teas, including 4 types of oolong tea, alongside an assortment of cheese and fruit-based teas. "
+            "orders": [
+                "Peach Oolong Tea Latte w/ Boba; C/50%/0%"
+            ]
         },
         {
             "id": 91,
@@ -752,7 +960,99 @@
             "address": "302 W 39th St, New York, NY 10018",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Garment District"],
             "rankSlotID": 4,
-            "comments": "The drink was good, but this location in particular lists cash prices and will automatically apply a 13% (definitely above normal) surcharge if you use a card, which they do not mention when you give them your card."
+            "orders": [
+                "Creme Brulee Bubble Tea w/ Chewy Regular Bubble; C/50%/0%"
+            ]
+        },
+        {
+            "id": 92,
+            "name": "Tea Magic 72",
+            "address": "239 W 72nd St, New York, NY 10023",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper West Side"],
+            "rankSlotID": 4,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 93,
+            "name": "Shiny Tea",
+            "address": "2267 Broadway, New York, NY 10025",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper West Side"],
+            "rankSlotID": 2,
+            "orders": [
+                "Oolong Tea Latte w/ Mixed Pearls; C/50%/0%"
+            ]
+        },
+        {
+            "id": 94,
+            "name": "JOOY Tea Shoppe",
+            "address": "653 9th Ave, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 2,
+            "orders": [
+                "White Peach Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 95,
+            "name": "Teazzi",
+            "address": "43-21 Hunter St, Long Island City, NY 11101",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
+            "rankSlotID": 1,
+            "orders": [
+                "Amber Oolong Milk Tea w/ Tapioca; C/50%/0%"
+            ]
+        },
+        {
+            "id": 96,
+            "name": "Gong Cha",
+            "address": "2508 Queens Plaza S, Long Island City, NY 11101",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
+            "rankSlotID": 2,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 97,
+            "name": "The Teapsy",
+            "address": "33-17 30th Ave, Astoria, NY 11103",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
+            "rankSlotID": 2,
+            "orders": [
+                "Oolong Tea Latte w/ Bubbles; C/50%/0%"
+            ]
+        },
+        {
+            "id": 98,
+            "name": "I'Milky",
+            "address": "992 6th Ave, New York, NY 10018",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Bryant Park"],
+            "rankSlotID": 1,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 99,
+            "name": "Grace Street Coffee & Desserts",
+            "address": "17 W 32nd St, New York, NY 10001",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
+            "rankSlotID": 3,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 100,
+            "name": "Kung Fu Tea",
+            "address": "1731 NJ-27, Edison, NJ 08817",
+            "locale": ["USA", "NYC Metro Area", "New Jersey", "Edison"],
+            "rankSlotID": 3,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         }
     ]
 }

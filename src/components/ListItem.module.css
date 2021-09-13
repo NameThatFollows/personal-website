@@ -29,9 +29,14 @@
     margin-bottom: 10px;
 }
 
-.listItem .comments {
+.listItem .orderList {
     flex-grow: 1;
     font-size: 11pt;
+    margin-left: 20px;
+}
+
+.listItem .orderList li {
+    margin-bottom: 8px;
 }
 
 .listItem .localeTrail {
