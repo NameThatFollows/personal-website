@@ -32,7 +32,7 @@
             "name": "375 Chicken & Fries",
             "address": "124 Ludlow St, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lower East Side"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
                 "Raclette Fried Chicken Sandwich+",
                 "Spicy Fried Chicken Sandwich+",
@@ -89,7 +89,7 @@
             "name": "The Tyger",
             "address": "1 Howard St, New York, NY 10013",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": [
                 "Shaken Beef Skewers, Coriander Chimichurri+",
                 "Sashimi of Scallop, Pickled Cucumbers, Wood Ear Mushroom, Aged Ponzu+",
@@ -101,7 +101,7 @@
             "name": "BURGER WORLD",
             "address": "534 9th Ave, New York, NY 10018",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": [
                 "New York Times Burger+",
                 "Burger Authority+",
@@ -152,7 +152,7 @@
             "name": "JOJU",
             "address": "83-25 Broadwday, Elmhurst, NY 11373",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Elmhurst"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
                 "Vegetarian Egg Rolls+",
                 "JoJu Fries+",
@@ -165,7 +165,7 @@
             "name": "Ippudo",
             "address": "321 W 51st St, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
                 "Oishii Karaage+",
                 "Karaka Spicy Ramen+"
@@ -200,7 +200,7 @@
             "name": "Dokodemo",
             "address": "89 E 4th St, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
                 "Octopus Takoyaki+",
                 "Okonomi Yaki (Pork)+"
@@ -211,7 +211,7 @@
             "name": "Kobeyaki",
             "address": "110 W 40th St, New York, NY 10018",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown South", "Bryant Park"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": [
                 "Kobeyaki Burger+",
                 "Shrimp Tempura Roll+"
@@ -271,7 +271,7 @@
             "name": "Maru Sushi",
             "address": "529 Powell St, San Francisco, CA 94108",
             "locale": ["USA"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
                 "Shrimp Tempura+",
                 "Dragon Roll+",
@@ -318,7 +318,7 @@
             "name": "La Fonda Latina",
             "address": "1025 Howell Mill Rd NW, Atlanta, GA 30318",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "West Midtown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -346,7 +346,7 @@
             "name": "Wagaya",
             "address": "339 14th St NW, Atlanta, GA 30318",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "West Midtown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": [
                 "Ishiyaki Chashu Fried Rice+",
                 "Salmon Ikura Chazuke",
@@ -417,7 +417,7 @@
             "name": "Senor Patron",
             "address": "860 Peachtree St NE, Suite H, Atlanta, GA 30308",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -425,7 +425,7 @@
             "name": "Which Wich",
             "address": "915 W Peachtree St NW #5, Atlanta, GA 30309",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -509,7 +509,7 @@
             "name": "Blaze Pizza",
             "address": "540 17th St NW Suite 410, Atlanta, GA 30318",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown", "West Midtown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -573,7 +573,7 @@
             "name": "Canton House",
             "address": "4825 Buford Hwy NW, Chamblee, GA 30341",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway", "Chamblee"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -613,7 +613,7 @@
             "name": "El Super Pan",
             "address": "675 Ponce De Leon Ave NE, Atlanta, GA 30308",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Old Fourth Ward", "Ponce City Market"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -727,7 +727,7 @@
             "name": "Tommy DiNic's",
             "address": "51 N 12th St, Philadelphia, PA 19107",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "Center City", "Reading Terminal Market"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
                 "Roast Pork Sandwich+"
             ]
@@ -825,7 +825,7 @@
             "name": "K-POT & GRILL",
             "address": "475 Castro St, Mountain View, CA 94041",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Mountain View"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -857,7 +857,7 @@
             "name": "In-N-Out Burger",
             "address": "820 W Imola Ave, Napa, CA 94559",
             "locale": ["USA", "SF Bay Area", "North Bay", "Napa Valley", "Napa"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
             ]
         },
@@ -900,7 +900,7 @@
             "name": "Hang Ah Tea Room",
             "address": "1 Pagoda Pl, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -916,7 +916,7 @@
             "name": "Crab Station",
             "address": "2803 Taylor St, San Francisco, CA 94101",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Fisherman's Wharf"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -924,7 +924,7 @@
             "name": "R & G Lounge",
             "address": "631 Kearny St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -932,7 +932,7 @@
             "name": "Sushirrito",
             "address": "226 Kearny St, San Francisco, CA 94104",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Financial District"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -940,7 +940,7 @@
             "name": "Delarosa",
             "address": "37 Yerba Buena Ln, San Francisco, CA 94103",
             "locale": ["USA", "SF Bay Area", "San Francisco", "SOMA"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -980,7 +980,7 @@
             "name": "Kirk's SteakBurgers",
             "address": "855 El Camino Real, Palo Alto, CA 94301",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Palo Alto"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
             ]
         },
@@ -1021,7 +1021,7 @@
             "name": "SPICY KING",
             "address": "65 Waverly Pl, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1029,7 +1029,7 @@
             "name": "El Metate",
             "address": "2406 Bryant St, San Francisco, CA 94110",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1053,7 +1053,7 @@
             "name": "Tadu Ethiopian Kitchen",
             "address": "484 Ellis St, San Francisco, CA 94102",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Tenderloin"],
-            "rankSlotID": 2,
+            "rankSlotID": 1,
             "orders": []
         },
         {
@@ -1117,7 +1117,7 @@
             "name": "Tannour Mediterranean Grill",
             "address": "398 14th St NW, Atlanta, GA 30318",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown", "West Midtown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1181,7 +1181,7 @@
             "name": "MIGHTY Bowl",
             "address": "817 2nd Ave, New York, NY 10017",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1205,7 +1205,7 @@
             "name": "Panbury's Pie Cafe",
             "address": "231 Peachtree St NE, Atlanta, GA 30303",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Downtown"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1366,7 +1366,7 @@
             "name": "Shogun Asian Fusion",
             "address": "5125 Jonestown Rd, Harrisburg, PA 17112",
             "locale": ["USA", "South Central PA", "Harrisburg", "Colonial Park"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1398,7 +1398,7 @@
             "name": "Kati Roll Company",
             "address": "229 E 53rd St, New York, NY 10022",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1414,7 +1414,7 @@
             "name": "Shake Shack",
             "address": "200 Broadweay, New York, NY 10038",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Financial District"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1462,7 +1462,7 @@
             "name": "Land of Plenty",
             "address": "204 E 58th St, New York, NY 10022",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1470,7 +1470,7 @@
             "name": "Jian Bing Man",
             "address": "11 W 32nd St, New York, NY 10001",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
-            "rankSlotID": 1,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1502,7 +1502,7 @@
             "name": "MomenTea",
             "address": "64 7th Ave, New York, NY 10011",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chelsea"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1542,7 +1542,7 @@
             "name": "F. Ottomanelli Burgers and Belgian Fries",
             "address": "60-15 Woodside Ave, Woodside, NY 11377",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Woodside"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1550,7 +1550,7 @@
             "name": "TKK Fried Chicken",
             "address": "115 E 23rd St, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Flatiron"],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "orders": []
         },
         {
@@ -1606,7 +1606,7 @@
             "name": "Tallgrass Burger",
             "address": "214 1st Ave, New York, NY 10009",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1630,7 +1630,7 @@
             "name": "Ramen Danbo",
             "address": "48 Carmine St, New York, NY 10014",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "West Village"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1670,7 +1670,7 @@
             "name": "Tea and Milk",
             "address": "32-02 34th Ave, Astoria, NY 11106",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1686,7 +1686,7 @@
             "name": "Jackson Hole Burgers",
             "address": "521 3rd Ave, New York, NY 10016",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Murray Hill"],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "orders": []
         },
         {
@@ -1710,7 +1710,7 @@
             "name": "Umami Sushi",
             "address": "50 Greenwich Ave, New York, NY 10011",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "West Village"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1742,7 +1742,7 @@
             "name": "Bonchon",
             "address": "325 5th Ave, New York, NY 10016",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1750,7 +1750,7 @@
             "name": "Debutea",
             "address": "71 Smith St, Brooklyn, NY 11201",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Boerum Hill"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1798,7 +1798,7 @@
             "name": "Taim",
             "address": "28-17 Jackson Ave, Long Island City, NY 11101",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1814,7 +1814,7 @@
             "name": "Comfortland",
             "address": "40-09 30th Ave, Astoria, NY 11103",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1862,7 +1862,7 @@
             "name": "5 Napkin Burger",
             "address": "630 9th Ave, New York, NY 10036",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1889,7 +1889,7 @@
             "name": "Mian Kitchen",
             "address": "230 Park Ave, New York, NY 10169",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
-            "rankSlotID": 1,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1905,7 +1905,7 @@
             "name": "French Roast",
             "address": "2340 Broadway, New York, NY 10024",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper West Side"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1921,7 +1921,7 @@
             "name": "Mamoun's Falafel",
             "address": "30 St Marks Pl, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1929,7 +1929,7 @@
             "name": "BAO Tea House",
             "address": "140 W 4th St, New York, NY 10012",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": []
         },
         {
@@ -1937,7 +1937,7 @@
             "name": "Shaking Crab",
             "address": "737 9th Ave, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1945,7 +1945,7 @@
             "name": "Three Roosters",
             "address": "792 9th Ave, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1977,7 +1977,7 @@
             "name": "Maguro Sushi",
             "address": "160 E 28th St, New York, NY 10016",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -1985,7 +1985,7 @@
             "name": "Burgerology",
             "address": "31-29 Ditmars Blvd, Astoria, NY 11105",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -2017,7 +2017,7 @@
             "name": "Taqueria Santa Fe",
             "address": "47-08 47th Ave, Woodside, NY 11377",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Woodside"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": []
         },
         {
@@ -2060,7 +2060,7 @@
             "name": "Bareburger",
             "address": "48-19 Vernon Blvd, Long Island City, NY 11101",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": [
                 "Flamin' Bacon Burger+",
                 "French Fries"
@@ -2094,7 +2094,7 @@
             "name": "Bareburger",
             "address": "23-01 31st St, Astoria, NY 11105",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "orders": [
                 "American Burger+",
                 "Share Rings & Fries+"
@@ -2117,7 +2117,7 @@
             "name": "Win Son Bakery",
             "address": "164 Graham Ave, Brooklyn, NY 11206",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "East Williamsburg"],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "orders": [
                 "Friend Chicken Sandwich+",
                 "Pan-Griddled Pork Buns"

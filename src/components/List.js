@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Footer from './Footer';
 import Header from './Header';
 import ListSection from './ListSection';
-import css from './List.module.css';
+import * as css from './List.module.css';
 import Autocomplete from 'react-autocomplete';
 import isSubsequence from '../utils/subsequence';
 

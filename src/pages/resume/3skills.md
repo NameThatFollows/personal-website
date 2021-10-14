@@ -3,11 +3,11 @@ type: resume
 title: Skills
 ---
 
-## Languages
-- Javascript, Typescript, HTML/CSS, Python, C++, SQL, ReasonML, Java, PHP/Hack
+## Programming Languages
+- Javascript, Typescript, Python, HTML/CSS, C++, SQL, Java
 
 ## Libraries & Frameworks
-- React, Redux, GatsbyJS, Wordpress, Express, Mapbox, Electron, scikit-learn, Rasa NLU
+- React, Redux, GatsbyJS, Wordpress, Express, Mapbox, PixiJS
 
 ## Tools
-- Git, vim, Visual Studio Code, SQL Server Management Studio, Bloomberg Terminal, Adobe Creative Cloud, Mercurial, Atom/Nuclide, IDA Pro
+- Git, vim, WSL, SQL Server Management Studio, Bloomberg Terminal, Adobe Creative Cloud, Mercurial, Atom/Nuclide, IDA Pro

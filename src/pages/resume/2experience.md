@@ -8,10 +8,10 @@ title: "Experience"
 >
 > Software Engineer
 
-- Maintain and improve the internal ticketing system within the Bloomberg Terminal, used by various groups across the company, including customer service, IT, facilities, and HR, handling millions of operations daily.
-- Develop dynamic ticket monitoring and distribution tools and APIs to assist wtih daily work for representatives and managers.
+- Maintain and improve an internal ticketing system within the Bloomberg Terminal, used by Bloomberg customer service, IT, facilities, and HR, handling millions of operations daily.
+- Develop dynamic ticket monitoring tools, distribution systems, and external APIs to assist wtih daily work for representatives and managers.
 - Contribute to ongoing efforts to migrate legacy C++ code to modern platforms and architectures.
-- Monitor and make changes to team machine clusters to fit the needs of the team and our software.
+- Add new and enhance existing CI pipelines to make deployments safer and more frequent.
 
 
 ## Facebook
@@ -19,9 +19,9 @@ title: "Experience"
 >
 > Software Engineer Intern
 
-- Optimized code responsible for creating groups and sending group messages, affecting 1.3 billion Facebook Messenger users.
-- Used ReasonML and React to create and update internal tooling to more efficiently and safely dbug issues relating message and folder routing, with a focus on complying with user data access policies.
-- Worked with Facebook's continuous integration environment to push code changes directly to master and production.
+- Optimized code responsible for creating groups and sending group messages, impacting millions of Facebook Messenger users.
+- Developed and updated internal tools to efficiently and safely debug message routing, folder routing, and contacts.
+- Worked with Facebook's continuous integration and deployment environment to quickly and safely deploy changes.
 
 
 ## Civic Data & Design at Georgia Tech
@@ -30,8 +30,8 @@ title: "Experience"
 > Student Researcher
 
 - Designed a database in collaboration with stakeholders to consolidate affordable housing data for thousands of affordable units from multiple Atlanta-based public and private organizations.
-- Created an interactive visualization to demonstrate the rapidly decreasing quantity of affordable housing in Atlanta.
-- Used Atlanta municipal code violations data, tax owner data, and partner-collected data to create map visualizations to demonstrate neglect and speculation by wealthy landlords in an underserved Atlanta community.
+- Created an interactive visualization to demonstrate the decreasing quantity of affordable housing in Atlanta.
+- Used Atlanta municipal code violations data, tax records, and NGO data to [create interactive map visualizations](http://carefulcoding.net) to demonstrate neglect and land speculation in an underserved Atlanta community.
 
 
 ## HackGT
@@ -40,52 +40,34 @@ title: "Experience"
 > Director of Operations
 
 - Directed a team of 50+ students to organize events and promote HackGT's mission of promoting non-traditional STEM education to students.
-- Coordinated, organized, and ran HackGT's events:
-    - [HackGT](https://2019.hack.gt/): The largest collegiate hackathon in the Southern United States and Georgia Tech's flagship collegiate hackathon with 25+ corporate sponsors, 20+ workshops, and 1000+ participants.
+- Ideated, organized, and coordinated HackGT's events:
+    - [HackGT](https://2019.hack.gt/): The largest collegiate hackathon in the Southern U.S. and Georgia Tech's flagship collegiate hackathon with 25+ corporate sponsors, 1000+ participants, and 200+ project submissions.
     - [BuildGT](https://build.hack.gt/): Georgia Tech's largest hardware-oriented hackathon.
-    - [Horizons](https://horizons.hack.gt/): A different take on the traditional hackathon, with a focus on the intersection of Computer Science and the Arts.
+    - [Horizons](https://horizons.hack.gt/): A Hackathon focused on the intersection of Computer Science and the Arts.
     - [Catalyst](https://catalyst.hack.gt/): HackGT's day of STEAM education for high school students in Metro Atlanta.
-    - [HackGTeeny](https://teeny.hack.gt/): A day of workshops focused on preparing students new to computer science to learn practical skills and successfully compete in hackathons.
+    - [HackGTeeny](https://teeny.hack.gt/): A day of workshops focused on preparing students new to computer science to learn practical skills in order to successfully compete in hackathons.
 
 > Nov 2017 - Nov 2018 // Atlanta, GA
 >
 > Tech Team Member
 
 - Coordinated judge orientation and movements for [HackGT 5: Dare to Venture](https://2018.hack.gt/)
-- Helped to coordinate smooth operation of the project expo.
-- Worked on the streaming and recording of the opening and closing ceremonies.
-- Developed Ballot, a full-stack project organization, judging, and ranking solution for HackGT 5.
+- Developed [Ballot](https://github.com/HackGT/ballot), a full-stack project organization, judging, and ranking solution for HackGT 5.
+- Helped coordinate smooth operation of two hour-long project expos.
+- Produced and streamed the opening and closing ceremonies for overflow rooms.
 
 > Nov 2016 - Nov 2017 // Atlanta, GA
 >
 > Operations Team Member
 
 - Assisted with the day-of operations for [HackGTeeny](https://teeny.hack.gt/) and [Catalyst](https://catalyst.hack.gt/).
-- Coordinated parking and demo prizes for [HackGT 4: New Heights](https://fall2017.hack.gt/).
-- Worked with recording and streaming operations for opening and closing ceremonies.
+- Coordinated parking, demo prizes, and recording/streaming for [HackGT 4: New Heights](https://fall2017.hack.gt/).
 
 ## Verizon Connect
 > Jun 2018 - Aug 2018 // Atlanta, GA
 >
 > Software Engineer Intern
 
-- Created a full stack, proof of concept activity feed from scratch to reorganize system-generated content and implement social functionality.
-- Developed a React/Typescript web application with an simple user interface to allow testers to dynamically add and remove content in activity feeds.
-- Created a working chatbot prototype with Rasa and spaCy to understand human language and return relevant information.
-
-
-## Wreck Techs at Georgia Tech
-> Aug 2017 - Nov 2019 // Atlanta, GA
->
-> Residential Technology Advisor
-
-- Provide walk-in, phone, live chat, email, and in-room support for devices and networking for students and faculty at Georgia Tech.
-
-
-## Georgia Tech College of Computing
-> Aug 2017 - Dec 2017 // Atlanta, GA
->
-> Tutor
-
-- Worked with three computer science students at Georgia Tech in a one-to-one environment in courses offered by the College of Computing, such as Data Structures & Algorithms (CS 1332) and Computer Organization & Programming (CS 2110).
-
+- Created a full stack, proof of concept activity feed to reorganize system-generated content and implement social functionality.
+- Developed a React/Typescript web application to allow testers to dynamically add and remove content in activity feeds for use in user testing and interviews.
+- Created a chatbot with Rasa and spaCy to answer app-related questions and return relevant information.

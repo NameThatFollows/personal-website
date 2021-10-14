@@ -5,7 +5,7 @@ import { graphql, Link } from "gatsby";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import css from './lists.module.css'
+import * as css from './lists.module.css'
 
 export default function Lists({ data }) {
   data.allListsJson.nodes.sort((a, b) => b.items.length - a.items.length);

@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import css from "./resume.module.css"
+import * as css from "./resume.module.css"
 
 export default function Resume({ data }) {
   console.log(data);

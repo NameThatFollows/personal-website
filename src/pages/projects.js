@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 import Project from '../components/Project';
 
 export default function Projects({ data }) {
-  console.log(data);
   const projects = data.allMarkdownRemark.edges.map(({ node }, index) => {
     return (<div key={node.id}>
       {index === 0 ? <></> : <hr />}

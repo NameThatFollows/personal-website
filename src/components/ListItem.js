@@ -1,7 +1,7 @@
 import React from 'react';
 import { createLocaleString } from '../utils/localeString';
 
-import css from './ListItem.module.css';
+import * as css from './ListItem.module.css';
 
 export default function ListItem(props) {
   // Create location breadcrumbs. (e.g. USA > SF Bay Area > San Francisco)

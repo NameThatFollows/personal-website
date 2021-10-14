@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-import css from './Project.module.css';
+import * as css from './Project.module.css';
 
 export default function Project({ node }) {
   const endDate = node.frontmatter.endDate === "Invalid date" ? "Present" : node.frontmatter.endDate;

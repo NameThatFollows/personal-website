@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "../components/Footer"
 
 import Header from '../components/Header'
 
@@ -7,8 +8,9 @@ export default function FourOhFour() {
     <div className='page'>
       <Header />
       <div className='content'>
-        <p>You are not in the right place</p>
+        <p>😮 This page doesn't seem to exist.</p>
       </div>
+      <Footer />
     </div>
   )
 }

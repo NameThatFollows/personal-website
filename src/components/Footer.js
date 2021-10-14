@@ -1,8 +1,8 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { FaGithub, FaRegEnvelope, FaLinkedin, FaFacebook, FaInstagram, FaSpotify } from 'react-icons/fa';
+import { FaGithub, FaRegEnvelope, FaLinkedin, FaFacebook, FaInstagram, FaSpotify, FaTelegram, FaTelegramPlane } from 'react-icons/fa';
 
-import css from './Footer.module.css';
+import * as css from './Footer.module.css';
 
 export default function Footer() {
     const links = [
@@ -27,9 +27,9 @@ export default function Footer() {
             icon: FaLinkedin,
         },
         {
-            name: 'Facebook',
-            path: 'https://www.facebook.com/namethatfollows',
-            icon: FaFacebook,
+            name: 'Telegram',
+            path: 'https://t.me/NameThatFollows',
+            icon: FaTelegramPlane,
         },
         {
             name: 'Instagram',
@@ -41,7 +41,7 @@ export default function Footer() {
         const TagName = link.icon;
         return (
             <li key={link.name} className={css.icon}>
-                <a href={link.path} target='_blank' rel='noreferrer'>
+                <a href={link.path} target='_blank' rel='noreferrer' title={link.name}>
                     <TagName />
                 </a>
             </li>
@@ -50,11 +50,13 @@ export default function Footer() {
     return (
         <div className={css.footer}>
             <div className={css.navigation}>
-                <IconContext.Provider value={{ color: 'black', size: '1.8em'}}>
+                <IconContext.Provider value={{ color: 'black', size: '1.5em'}}>
                     {footerLinks}
                 </IconContext.Provider>
             </div>
-            &#169; {(new Date()).getFullYear()} James Lu. All rights reserved.
+            <p className={css.footerText}>
+                &#169; {(new Date()).getFullYear()} James Lu. All rights reserved.
+            </p>
         </div>
     );
 }

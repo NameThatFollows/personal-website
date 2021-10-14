@@ -11,5 +11,9 @@
 }
 
 .icon {
-    margin: 20px 7px 10px;
+    margin: 20px 5px 5px;
+}
+
+.footerText {
+    font-size: 0.75em;
 }
