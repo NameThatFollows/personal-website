@@ -1053,6 +1053,36 @@
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
+        },
+        {
+            "id": 101,
+            "name": "Modern Tea Shop",
+            "address": "300 W 49th St, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "orders": [
+                "Peach Oolong Tea w/ Steamed Milk & Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 102,
+            "name": "TSAO-CHA",
+            "address": "55 Richmond Terrace, Unit 103, Staten Isladn, NY 10301",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Staten Island", "St. George"],
+            "rankSlotID": 2,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 103,
+            "name": "CoCo",
+            "address": "646 9th Ave, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 3,
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         }
     ]
 }

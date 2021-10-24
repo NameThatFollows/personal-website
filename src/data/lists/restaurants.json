@@ -117,7 +117,8 @@
             "rankSlotID": 3,
             "orders": [
                 "Guacamole Burger",
-                "Tortilla Chips w/ Gracamole"
+                "Tortilla Chips w/ Gracamole",
+                "Acai Berry Bowl"
             ]
         },
         {
@@ -759,7 +760,7 @@
         {
             "id": 77,
             "name": "Shake Shack",
-            "address": "3200 CHestnut St, Philadelphia, PA 19104",
+            "address": "3200 Chestnut St, Philadelphia, PA 19104",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "West Philadelphia", "University City"],
             "rankSlotID": 3,
             "orders": []
@@ -1412,7 +1413,7 @@
         {
             "id": 158,
             "name": "Shake Shack",
-            "address": "200 Broadweay, New York, NY 10038",
+            "address": "200 Broadway, New York, NY 10038",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Financial District"],
             "rankSlotID": 3,
             "orders": []
@@ -2143,6 +2144,157 @@
             "orders": [
                 "Truffle French Fries",
                 "Original Spicy Chicken Sandwich"
+            ]
+        },
+        {
+            "id": 246,
+            "name": "Liberty Bistro",
+            "address": "225 Liberty St, New York, NY 10281",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Financial District", "Battery Park City"],
+            "rankSlotID": 3,
+            "orders": [
+                "Salmon Benedict"
+            ]
+        },
+        {
+            "id": 247,
+            "name": "Sotto 13",
+            "address": "140 W 13th St, New York, NY 10011",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "West Village"],
+            "rankSlotID": 1,
+            "orders": [
+                "Octopus+",
+                "Margherita Pizza+",
+                "Prosciutto di Parma Pizza+",
+                "Shroom Pizza+",
+                "Carbonara Pasta+",
+                "Burrata",
+                "Hand Cut Rigatoni"
+            ]
+        },
+        {
+            "id": 248,
+            "name": "Anytime NYC",
+            "address": "23 W 32nd St, 3rd Floor, New York, NY 10001",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
+            "rankSlotID": 2,
+            "orders": [
+                "Sweet Spicy Pork+",
+                "Kimchi Okonomiyaki+",
+                "Budae Jungol+",
+                "Super Creamy Tteokbokki+",
+                "Truffle Fries"
+            ]
+        },
+        {
+            "id": 249,
+            "name": "375 Chicken & Fries",
+            "address": "649 9th Ave, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "orders": [
+                "Truffle-Parmesan Fries+",
+                "Nashville Hot Chicken Sandwich+",
+                "Swiss 'N Bacon Fried Chicken Sandwich+"
+            ]
+        },
+        {
+            "id": 250,
+            "name": "Ageha Sushi",
+            "address": "767 9th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 3,
+            "orders": [
+                "Dynamite Roll",
+                "Dragon Roll",
+                "Beef Negimaki",
+                "Crispy Peking Duck"
+            ]
+        },
+        {
+            "id": 251,
+            "name": "Baoburg",
+            "address": "614 Manhattan Ave, Brooklyn, NY 11222",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Greenpoint"],
+            "rankSlotID": 2,
+            "orders": [
+                "Shrimp Tempura Bao+",
+                "Pork Belly Bao",
+                "Roti Canai+",
+                "Pad Thai+"
+            ]
+        },
+        {
+            "id": 252,
+            "name": "Adda Indian Canteen",
+            "address": "31-31 Thomson Ave, Queens, NY 11101",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
+            "rankSlotID": 3,
+            "orders": []
+        },
+        {
+            "id": 253,
+            "name": "Call Me Pasta",
+            "address": "152 W 52nd St, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "rankSlotID": 2,
+            "orders": [
+                "Call Me Alfredo w/ Chicken & Mushrooms+"
+            ]
+        },
+        {
+            "id": 254,
+            "name": "Roma Pizza",
+            "address": "1701 1st Ave, New York, NY 10128",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper East Side"],
+            "rankSlotID": 3,
+            "orders": [
+                "Pepperoni Slice+",
+                "Grandma Slice"
+            ]
+        },
+        {
+            "id": 255,
+            "name": "Chick-fil-A",
+            "address": "1180 6th Ave, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown South"],
+            "rankSlotID": 3,
+            "orders": [
+                "Spicy Deluxe Chicken Sandwich",
+                "Waffle Fries"
+            ]
+        },
+        {
+            "id": 256,
+            "name": "Royal Grill Halal Food",
+            "address": "1133 6th Ave, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown South", "Bryant Park"],
+            "rankSlotID": 1,
+            "orders": [
+                "Lamb & Chicken w/ Rice+",
+                "Chicken Kati Roll+"
+            ]
+        },
+        {
+            "id": 257,
+            "name": "Lupe's East L.A. Kitchen",
+            "address": "110 6th Ave, New York, NY 10013",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "SOHO"],
+            "rankSlotID": 4,
+            "orders": [
+                "Nachos",
+                "Steak Quesadilla"
+            ]
+        },
+        {
+            "id": 258,
+            "name": "Jun-Men Ramen Bar",
+            "address": "249 9th Ave, New York, NY 10001",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chelsea"],
+            "rankSlotID": 2,
+            "orders": [
+                "Shiitake Bun+",
+                "Spicy Miso Ramen+"
             ]
         }
     ]
