@@ -8,10 +8,10 @@ title: "Experience"
 >
 > Software Engineer
 
-- Maintain and improve an internal ticketing system within the Bloomberg Terminal, used by Bloomberg customer service, IT, facilities, and HR, handling millions of operations daily.
-- Develop dynamic ticket monitoring tools, distribution systems, and external APIs to assist wtih daily work for representatives and managers.
-- Contribute to ongoing efforts to migrate legacy C++ code to modern platforms and architectures.
-- Add new and enhance existing CI pipelines to make deployments safer and more frequent.
+- Maintain and enhance an internal ticketing system within the Bloomberg Terminal, used extensive by 100+ groups within Bloomberg, including customer service, IT, facilities, and HR, handling millions of operations daily.
+- Develop and maintain a dynamic distribution system along with ticket and rep monitoring tools to assist with day-to-day work for ticket reps and managers.
+- Build and document APIs to allow other groups to interact and integrate with our system.
+- Contribute to ongoing efforts to migrate legacy C++ code and deployment pipelines to modern platforms.
 
 
 ## Facebook
@@ -19,20 +19,9 @@ title: "Experience"
 >
 > Software Engineer Intern
 
-- Optimized code responsible for creating groups and sending group messages, impacting millions of Facebook Messenger users.
-- Developed and updated internal tools to efficiently and safely debug message routing, folder routing, and contacts.
-- Worked with Facebook's continuous integration and deployment environment to quickly and safely deploy changes.
-
-
-## Civic Data & Design at Georgia Tech
-> Aug 2018 - Dec 2019 // Atlanta, GA
->
-> Student Researcher
-
-- Designed a database in collaboration with stakeholders to consolidate affordable housing data for thousands of affordable units from multiple Atlanta-based public and private organizations.
-- Created an interactive visualization to demonstrate the decreasing quantity of affordable housing in Atlanta.
-- Used Atlanta municipal code violations data, tax records, and NGO data to [create interactive map visualizations](http://carefulcoding.net) to demonstrate neglect and land speculation in an underserved Atlanta community.
-
+- Optimized code responsible for creating groups and routing those chats to the desired location, impacting millions of Facebook Messenger users and chats.
+- Developed and updated internal tools to efficiently and safely debug message routing, folder routing, and contacts using ReasonML and React.
+- Deployed changes in Facebook's continuous integration and deployment environment.
 
 ## HackGT
 > Nov 2018 - Nov 2019 // Atlanta, GA
@@ -68,6 +57,6 @@ title: "Experience"
 >
 > Software Engineer Intern
 
-- Created a full stack, proof of concept activity feed to reorganize system-generated content and implement social functionality.
+- Created a full stack, proof of concept activity feed to reorganize system-generated content and add social functionality.
 - Developed a React/Typescript web application to allow testers to dynamically add and remove content in activity feeds for use in user testing and interviews.
-- Created a chatbot with Rasa and spaCy to answer app-related questions and return relevant information.
+- Implemented an easily extensible chatbot with Rasa and spaCy to answer app-related questions using hard-coded data, database queries, and external API requests.

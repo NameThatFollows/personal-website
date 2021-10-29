@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
 p {
-    font-size: 12pt;
+    font-size: 14pt;
     margin-bottom: 10px;
     line-height: 1.65;
 }
@@ -21,7 +26,8 @@ p a {
     margin: 0 auto;
     padding: 30px;
     max-width: 840px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .content {

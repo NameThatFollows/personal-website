@@ -35,6 +35,7 @@ nav li a {
     text-decoration: none;
     padding: 5px 10px;
     transition: all 0.25s;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav li a:hover {
