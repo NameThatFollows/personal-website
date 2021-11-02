@@ -8,8 +8,8 @@ title: "Experience"
 >
 > Software Engineer
 
-- Maintain and enhance an internal ticketing system within the Bloomberg Terminal, used extensive by 100+ groups within Bloomberg, including customer service, IT, facilities, and HR, handling millions of operations daily.
-- Develop and maintain a dynamic distribution system along with ticket and rep monitoring tools to assist with day-to-day work for ticket reps and managers.
+- Enhance a flexible, internal ticketing system within the Bloomberg Terminal, used extensively by 100+ groups, including customer service, IT, facilities, supply chain, and HR, handling millions of daily operations.
+- Develop and maintain a dynamic ticket distribution system alongside ticket & agent monitoring tools to help agents and managers quickly handle thousands of new tickets as quickly as efficiently as possible
 - Build and document APIs to allow other groups to interact and integrate with our system.
 - Contribute to ongoing efforts to migrate legacy C++ code and deployment pipelines to modern platforms.
 
