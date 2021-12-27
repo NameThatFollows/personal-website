@@ -23,7 +23,6 @@ export default function Lists({ data }) {
         <Img fluid={node.background.childImageSharp.fluid} alt={listName}></Img>
         <div className={css.listTileImageOverlay} />
       </Link>
-
     );
   });
 

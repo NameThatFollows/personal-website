@@ -11,12 +11,23 @@ import isSubsequence from '../utils/subsequence';
 
 export default function List({ data }) {
   const [searchTerm, setSearchTerm] = React.useState('');
+  const [checkedFilters, setCheckedFilters] = React.useState(new Set());
   const node = data.allListsJson.nodes[0];
+  console.log(node);
   const organizedList = {}
   const rankSlots = {}
   for (const rankSlot of node.rankSlots) {
     organizedList[rankSlot.rankSlotID] = [];
     rankSlots[rankSlot.rankSlotID] = rankSlot;
+  }
+
+  const optionSymbolMap = {};
+  const optionFilters = new Set();
+  for (const option of Object.values(node.options)) {
+    optionSymbolMap[option.tag] = {
+      symbol: option.symbol,
+      tooltip: option.title,
+    };
   }
 
   const uniqueLocales = new Set();
@@ -28,6 +39,7 @@ export default function List({ data }) {
       return string;
     }, "");
     item["rawLocaleString"] = rawLocaleString;
+    item["symbols"] = item.options.sort().map(tag => optionSymbolMap[tag]);
     organizedList[item.rankSlotID].push(item);
   }
 
@@ -40,8 +52,28 @@ export default function List({ data }) {
           searchTerm={searchTerm}
           rankSlotName={rankSlots[rankSlotID]}
           rankSlot={organizedList[rankSlotID]}
+          filters={checkedFilters}
           localeSearch={localeSearch} />
         {index < Object.keys(organizedList).length - 1 ? <hr /> : null}
+      </div>
+    );
+  });
+
+  const updateFilters = (name, on) => {
+    const newSet = new Set(checkedFilters);
+    if (on) {
+      newSet.add(name);
+    } else {
+      newSet.delete(name);
+    }
+    setCheckedFilters(newSet);
+  };
+
+  const filters = Object.values(node.options).map((option, index) => {
+    return (
+      <div className={css.filter} key={index}>
+        <input type="checkbox" id={option.tag} name={option.tag} onChange={(e) => updateFilters(e.target.name, e.target.checked)} />
+        <label htmlFor={option.tag} title={option.subtitle}>{option.symbol} {option.title}</label>
       </div>
     );
   });
@@ -86,7 +118,10 @@ export default function List({ data }) {
               onSelect={(value) => setSearchTerm(value)}
               />
           </header>
-          <p>{node.additionalInfo}</p>
+          <div className={css.filters}>
+            {filters}
+          </div>
+          <p className={css.additionalInfo}>{node.additionalInfo}</p>
           {listSections}
         </div>
       </div>
@@ -104,6 +139,12 @@ export const query = graphql`
         name
         description
         additionalInfo
+        options {
+          tag
+          title
+          subtitle
+          symbol
+        }
         rankSlots {
           rankSlotID
           title
@@ -116,6 +157,7 @@ export const query = graphql`
           locale
           rankSlotID
           orders
+          options
         }
       }
     }

@@ -3,6 +3,7 @@
     "name": "Bubble Tea",
     "description": "Places that sell the Taiwanese cold drink made with tea, milk, and tapioca pearls and other variations.",
     "additionalInfo": "Each order is in the following format: Drink Name; Hot or Cold/Sugar Level/Ice Level",
+    "options": [],
     "background": "../../images/bubble-tea.jpg",
     "rankSlots": [
         {
@@ -33,6 +34,7 @@
             "address": "3420 18th St #001, San Francisco, CA 94110",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -43,6 +45,7 @@
             "address": "341 Kearny St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Boba; C/50%/0%",
                 "Thai Tea Milk Tea w/ Boba; C/50%/0%"
@@ -54,6 +57,7 @@
             "address": "253 Kearny St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -64,6 +68,7 @@
             "address": "429 Stockton St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Strawberry Matcha Latte w/ Boba; C/100%/0%",
                 "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
@@ -75,6 +80,7 @@
             "address": "272 O'Farrell St, San Francisco, CA 94102",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Panda Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -85,6 +91,7 @@
             "address": "320 O'Farrell St, San Francisco, CA 94102",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Boba; C/50%/0%",
                 "Mango Matcha Latte w/ Boba; C/100%/0%"
@@ -96,6 +103,7 @@
             "address": "2164 Center St, Berkeley, CA 94704",
             "locale": ["USA", "SF Bay Area", "East Bay", "Berkeley"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -106,6 +114,7 @@
             "address": "362 8th St, Unit A, Oakland, CA 94607",
             "locale": ["USA", "SF Bay Area", "East Bay", "Oakland", "Chinatown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Charcoal Latte w/ Sesame Boba; C/50%/0%"
             ]
@@ -116,6 +125,7 @@
             "address": "2361 Broadway, Redwood City, CA 94063",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Redwood City"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Honey Boba; C/50%/0%",
                 "High Mountain Oolong Milk Tea w/ Honey Boba; C/50%/0%",
@@ -132,6 +142,7 @@
             "address": "32-02 34th Avenue, Astoria, NY 11106, US",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Dark Roasted Oolong Milk Tea w/ Boba; C/50%/0%",
                 "Cocoa Oolong Milk Tea w/ Boba; C/50%/0%",
@@ -144,6 +155,7 @@
             "address": "165 University Avenue #D, Palo Alto, CA, 94301",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Palo Alto"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -154,6 +166,7 @@
             "address": "540 Bryant St, Palo Alto, CA 94301",
             "locale": ["USA", "SF Bay Area", "Peninsula", "Palo Alto"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -164,6 +177,7 @@
             "address": "7372 Thornton Avenue, Newark, CA 94560",
             "locale": ["USA", "SF Bay Area", "East Bay", "Newark"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Dark Roasted Black Tea w/ Matcha Milk Foam, Boba; C/50%/0%"
             ]
@@ -174,6 +188,7 @@
             "address": "865 Market St, San Francisco, CA 94103",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -184,6 +199,7 @@
             "address": "3491 19th St, San Francisco, CA 94110",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -194,6 +210,7 @@
             "address": "75 9th Ave, Chelsea Market Lower Level, New York, NY 10011, US",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chelsea"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Strawberry Matcha Latte w/ Boba; C/50%/0%",
                 "Tangerine Matcha Latte w/ Boba; C/50%/50%"
@@ -205,6 +222,7 @@
             "address": "4023 18th St, San Francisco, CA 94114",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Castro"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Matcha Blossom w/ Boba; C/100%/0%",
                 "Dirty Panda w/ Boba; C/100%/0%"
@@ -216,6 +234,7 @@
             "address": "841 W Las Tunas Dr, San Gabriel, CA 91776",
             "locale": ["USA", "LA Metro Area", "San Gabriel"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Assam Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -226,6 +245,7 @@
             "address": "68 Cooper Sq, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "NoHo"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "The Alley Trio Milk Tea; C/50%/0%",
                 "Royal No 9 Milk Tea; C/50%/0%"
@@ -237,6 +257,7 @@
             "address": "85 Kenmare St, New York, NY 10012",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Nolita"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Tea Latte w/ Regular Bubbles; C/50%/0%"
             ]
@@ -247,6 +268,7 @@
             "address": "1134B Broadway, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "NoMad"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Signature Milk Tea w/ Lychee Jelly; C/50%/0%"
             ]
@@ -257,6 +279,7 @@
             "address": "132 N 10th St, Philadelphia, PA 19107",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "Chinatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Coconut Milk Tea w/ Boba, C/50%/0%"
             ]
@@ -267,6 +290,7 @@
             "address": "1006 Arch St, Philadelphia, PA 19107",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "Chinatown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -277,6 +301,7 @@
             "address": "4600 Jonestown Rd, Harrisburg, PA 17109",
             "locale": ["USA", "South Central PA", "Harrisburg", "Colonial Park"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Coffee Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -287,6 +312,7 @@
             "address": "6122-B Arlington Blvd, Falls Church, VA 22044",
             "locale": ["USA", "DC Metro Area", "VA", "Falls Church"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Creme Brulee Bubble Tea w/ Chewy Regular Bubble; C/50%/0%"
             ]
@@ -297,6 +323,7 @@
             "address": "519 H St NW, Washington, DC 20001",
             "locale": ["USA", "DC Metro Area", "DC", "Chinatown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -307,6 +334,7 @@
             "address": "935 Peachtree St NE UNIT 935, Atlanta, GA 30309",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba, Lychee Jelly; C/50%/0%",
                 "Hong Kong Milk Tea w/ Boba, Lychee Jelly; C/50%/0%"
@@ -318,6 +346,7 @@
             "address": "2 Park Pl NE South, Atlanta, GA 30303",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Downtown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%",
                 "Black Honey Tea Cap w/ Boba, C/100%/0%"
@@ -329,6 +358,7 @@
             "address": "5280 Buford Hwy NE, Doraville, GA 30340",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -339,6 +369,7 @@
             "address": "5302 Buford Hwy NE A3, Atlanta, GA 30340",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -349,6 +380,7 @@
             "address": "5150 Buford Hwy NE C150, Doraville, GA 30340",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Golden Boba; C/50%/0%"
             ]
@@ -359,6 +391,7 @@
             "address": "6035 Peachtree Rd Suite A117, Doraville, GA 30360",
             "locale": ["USA", "Atlanta Metro Area", "Buford Highway"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -369,6 +402,7 @@
             "address": "2300 Pleasant Hill Rd, Duluth, GA 30096",
             "locale": ["USA", "Atlanta Metro Area", "Duluth"],
             "rankSlotID": 4,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -379,6 +413,7 @@
             "address": "488 Fell St, San Francisco, CA, 94102",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Hayes Valley"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "White Grape Milk Tea w/ Honey Boba; C/50%/0%"
             ]
@@ -389,6 +424,7 @@
             "address": "The Shops at Tanforan, Tanforan Way, San Bruno, CA 94066",
             "locale": ["USA", "SF Bay Area", "Peninsula", "San Bruno"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Boba Milk Tea; C/50%/0%"
             ]
@@ -399,6 +435,7 @@
             "address": "13350 San Pablo Ave, San Pablo, CA 94806",
             "locale": ["USA", "SF Bay Area", "East Bay", "San Pablo"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -409,6 +446,7 @@
             "address": "75 O'Farrell St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -419,6 +457,7 @@
             "address": "103 Waverly Pl, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%",
                 "Oolong Lychee Milk Tea w/ Boba; C/50%/0%"
@@ -430,6 +469,7 @@
             "address": "652 Market St, San Francisco, CA 94104",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Union Square"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "3 Guys; C/50%/0%"
             ]
@@ -440,6 +480,7 @@
             "address": "827 Sacramento St, San Francisco, CA 94108",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Chinatown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Dirty Chai w/ Boba; C/50%/0%"
             ]
@@ -450,6 +491,7 @@
             "address": "110 E San Fernando St, San Jose, CA 95112",
             "locale": ["USA", "SF Bay Area", "South Bay", "San Jose", "Downtown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Honey Boba; C/50%/0%"
             ]
@@ -460,6 +502,7 @@
             "address": "8 Tyler St, Boston, MA 02111",
             "locale": ["USA", "Boston Metro Area", "Boston", "Chinatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Tapioca Pearl; C/50%/0%"
             ]
@@ -470,6 +513,7 @@
             "address": "3865 Venture Dr A, Duluth, GA 30096",
             "locale": ["USA", "Atlanta Metro Area", "Duluth"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -480,6 +524,7 @@
             "address": "265 18th St NW #4120A, Atlanta, GA 30363",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Atlantic Station"],
             "rankSlotID": 4,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -490,6 +535,7 @@
             "address": "142 Park City Center, Lancaster, PA 17601",
             "locale": ["USA", "South Central PA", "Lancaster", "Park City Center"],
             "rankSlotID": 4,
+            "options": [],
             "orders": [
                 "Coffee Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -500,6 +546,7 @@
             "address": "3109 24th St, San Francisco, CA 94110",
             "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Dulce de Leche w/ Boba; C/50%/0%"
             ]
@@ -510,6 +557,7 @@
             "address": "216 N 10th St, Philadelphia, PA 19107",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "Chinatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -520,6 +568,7 @@
             "address": "3816-36 Chestnut St #36, Philadelphia, PA 19104",
             "locale": ["USA", "Philly Metro Area", "Philadelphia", "University City"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -530,6 +579,7 @@
             "address": "798 Ponce De Leon Ave NE, Atlanta, GA 30306",
             "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Virginia-Highland"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Signiture Royal Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -540,6 +590,7 @@
             "address": "240 Canal St, New York, NY 10013",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -550,6 +601,7 @@
             "address": "99 Chrystie St #5016, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Rose Oolong Tea w/ Matcha Milk Foam, Boba; C/50%/0%",
                 "Lightly Roasted Oolong Tea w/ Matcha Milk Foam, Boba; C/50%/0%"
@@ -561,6 +613,7 @@
             "address": "40-10 #A, Main St, Flushing, NY 11354",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Brown Sugar Black Tea w/ Pearls; H/100%/0%"
             ]
@@ -571,6 +624,7 @@
             "address": "156 Lawrence St, Brooklyn, NY 11201",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Downtown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -581,6 +635,7 @@
             "address": "73 Mott St, New York, NY 10013",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "King's Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -591,6 +646,7 @@
             "address": "227 E 14th St, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Mini Boba; C/50%/0%",
                 "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
@@ -602,6 +658,7 @@
             "address": "44-68 21st St, Long Island City, NY 11101",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
             ]
@@ -612,6 +669,7 @@
             "address": "110-112 E 23rd St, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Flatiron"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -622,6 +680,7 @@
             "address": "1000 8th Ave #29, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Columbus Circle"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -632,6 +691,7 @@
             "address": "265 Canal St, New York, NY",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -642,6 +702,7 @@
             "address": "162 E 25th St, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -652,6 +713,7 @@
             "address": "136-20 38th Ave, Flushing, NY 11354",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -662,6 +724,7 @@
             "address": "136-20 Roosevelt Ave, Flushing, NY 11354",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 4,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -672,6 +735,7 @@
             "address": "11 Waverly Pl, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Strawberry Matcha Latte w/ Boba; C/50%/0%",
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
@@ -683,6 +747,7 @@
             "address": "64 7th Ave, New York, NY 10011",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chelsea"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Classic Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -693,6 +758,7 @@
             "address": "47 W 14th St #3, New York, NY 10011",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Amber Oolong Milk Tea w/ Brown Sugar Tapioca; C/50%/0%",
                 "Golden Oolong Tea Latte w/ Tapioca; C/50%/0%",
@@ -705,6 +771,7 @@
             "address": "124A Hester St, New York, NY, 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -715,6 +782,7 @@
             "address": "805 8th Ave, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -725,6 +793,7 @@
             "address": "11 W 32nd St #9, New York, NY 10001",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -735,6 +804,7 @@
             "address": "858 Lexington Ave, New York, NY 10035",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lenox Hill"],
             "rankSlotID": 4,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -745,6 +815,7 @@
             "address": "33 St Marks Pl, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
             ]
@@ -755,6 +826,7 @@
             "address": "1600 Broadway, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -765,6 +837,7 @@
             "address": "284 3rd Ave, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%",
                 "I Love Yaya Fruit Tea; C/50%/0%",
@@ -777,6 +850,7 @@
             "address": "23 Clinton St, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lower East Side"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Strawberry Matcha Latte w/ Boba; C/50%/0%",
                 "Muscat Oolong Milk Tea w/ Boba; C/50%/0%"
@@ -788,6 +862,7 @@
             "address": "189 Bleecker St, New York, NY 10012",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Golden Bubble Milk Tea; C/50%/0%"
             ]
@@ -798,6 +873,7 @@
             "address": "133-41 41st Ave, Flushing, NY 11355",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Flushing"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -808,6 +884,7 @@
             "address": "160 E 44th St, New York, NY 10017",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -818,6 +895,7 @@
             "address": "32 Union Square E, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Golden Bubble Milk Tea; C/50%/0%",
                 "Ceylon Black Tea Latte w/ Golden Bubble; C/50%/0%"
@@ -829,6 +907,7 @@
             "address": "75 W 38th St, New York, NY 10018",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Bryant Park"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -839,6 +918,7 @@
             "address": "106 Greenwich St, New York, NY 10006",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Financial District"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Roasted Tie Guanyin Milk Tea w/ Brown Sugar Bubble; C/50%/0%"
             ]
@@ -849,6 +929,7 @@
             "address": "749 Grand St, Brooklyn, NY 11211",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Williamsburg"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -859,6 +940,7 @@
             "address": "7 E 14th St, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Gramercy"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -869,6 +951,7 @@
             "address": "2309 Astoria Blvd, Astoria, NY 11102",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Classic Milk Tea w/ Boba; C/50%/0%",
                 "Rose Milk Tea w/ Boba; C/50%/0%"
@@ -880,6 +963,7 @@
             "address": "7115 3rd Ave, Brooklyn, NY 11209",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Bay Ridge"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Roasted Oolong Milk Tea w/ Tapioca; C/50%/0%"
             ]
@@ -890,6 +974,7 @@
             "address": "61 Lexington Ave, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Kips Bay"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Tea Latte w/ Mini Boba; C/50%/0%"
             ]
@@ -900,6 +985,7 @@
             "address": "26B Elizabeth St, New York, NY 10013",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -910,6 +996,7 @@
             "address": "690 W Dekalb Pike Ste 1071, King of Prussia, PA 19406",
             "locale": ["USA", "Philly Metro Area", "King of Prussia"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -920,6 +1007,7 @@
             "address": "115 E 23rd St, New York, NY 10010",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Flatiron"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -930,6 +1018,7 @@
             "address": "51 Christie St, New York, NY 10002",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -940,6 +1029,7 @@
             "address": "110 3rd Ave, New York, NY 10003",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Tea Latte w/ One Zo Boba; C/50%/0%"
             ]
@@ -950,6 +1040,7 @@
             "address": "71 Smith St, Brooklyn, NY 11201",
             "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Downtown"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Peach Oolong Tea Latte w/ Boba; C/50%/0%"
             ]
@@ -960,6 +1051,7 @@
             "address": "302 W 39th St, New York, NY 10018",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Garment District"],
             "rankSlotID": 4,
+            "options": [],
             "orders": [
                 "Creme Brulee Bubble Tea w/ Chewy Regular Bubble; C/50%/0%"
             ]
@@ -970,6 +1062,7 @@
             "address": "239 W 72nd St, New York, NY 10023",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper West Side"],
             "rankSlotID": 4,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -980,6 +1073,7 @@
             "address": "2267 Broadway, New York, NY 10025",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper West Side"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Tea Latte w/ Mixed Pearls; C/50%/0%"
             ]
@@ -990,6 +1084,7 @@
             "address": "653 9th Ave, New York, NY 10036",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "White Peach Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -1000,6 +1095,7 @@
             "address": "43-21 Hunter St, Long Island City, NY 11101",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Amber Oolong Milk Tea w/ Tapioca; C/50%/0%"
             ]
@@ -1010,6 +1106,7 @@
             "address": "2508 Queens Plaza S, Long Island City, NY 11101",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Long Island City"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -1020,6 +1117,7 @@
             "address": "33-17 30th Ave, Astoria, NY 11103",
             "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Astoria"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Tea Latte w/ Bubbles; C/50%/0%"
             ]
@@ -1030,6 +1128,7 @@
             "address": "992 6th Ave, New York, NY 10018",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Bryant Park"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -1040,6 +1139,7 @@
             "address": "17 W 32nd St, New York, NY 10001",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -1050,6 +1150,7 @@
             "address": "1731 NJ-27, Edison, NJ 08817",
             "locale": ["USA", "NYC Metro Area", "New Jersey", "Edison"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -1060,6 +1161,7 @@
             "address": "300 W 49th St, New York, NY 10019",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
             "rankSlotID": 1,
+            "options": [],
             "orders": [
                 "Peach Oolong Tea w/ Steamed Milk & Boba; C/50%/0%"
             ]
@@ -1070,6 +1172,7 @@
             "address": "55 Richmond Terrace, Unit 103, Staten Isladn, NY 10301",
             "locale": ["USA", "NYC Metro Area", "New York City", "Staten Island", "St. George"],
             "rankSlotID": 2,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
@@ -1080,9 +1183,19 @@
             "address": "646 9th Ave, New York, NY 10036",
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
             "rankSlotID": 3,
+            "options": [],
             "orders": [
                 "Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
+        },
+        {
+            "id": 104,
+            "name": "MENO Coffee & Tea",
+            "address": "218 Thompson St, New York, NY 10012",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lower East Side"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": []
         }
     ]
 }

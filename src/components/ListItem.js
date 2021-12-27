@@ -23,9 +23,14 @@ export default function ListItem(props) {
     return <li key={order}>{order}</li>
   });
 
+  const symbolList = props.symbols.map((symbolData) => {
+    return <span key={symbolData.tooltip} title={symbolData.tooltip}>{symbolData.symbol}</span>
+  });
+
   return (
     <div className={css.listItem} key={props.id}>
       <h3>{props.name}</h3>
+      <p className={css.symbols}>{symbolList}</p>
       <p className={css.address}>{props.address}</p>
       <div className={css.orderList}>
         <ul>

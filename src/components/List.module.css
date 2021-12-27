@@ -3,7 +3,7 @@
 
 .listHeader {
     display: flex;
-    margin: 0 0 15px;
+    margin: 0 0 10px;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
@@ -19,13 +19,34 @@
     min-width: 200px;
 }
 
-.listHeader div input {
+.filters {
+    display: inline-flex;
+    gap: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.filters .filter {
+    min-width: 30px;
+}
+
+.filters .filter label {
+    margin-left: 5px;
+}
+
+.listHeader div input:not([type='checkbox']) {
     padding: 10px;
     width: 100%;
+    flex-grow: 2;
     font-family: inherit;
     box-sizing: border-box;
 }
 
 .list hr {
     margin: 15px 0 30px;
+}
+
+p.additionalInfo {
+    font-size: 11pt;
 }

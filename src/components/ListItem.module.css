@@ -26,6 +26,10 @@
     line-height: 1.2;
 }
 
+.listItem .symbols {
+    font-size: 12pt;
+}
+
 .listItem .address {
     font-size: 10pt;
     margin: 5px 0 10px;
