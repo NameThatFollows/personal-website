@@ -4679,7 +4679,10 @@
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
             "rankSlotID": 2,
             "options": ["orderahead"],
-            "orders": []
+            "orders": [
+                "Black Truffle Burger+",
+                "Parmesan Garlic Fries w/ Black Truffle Sauce+"
+            ]
         },
         {
             "id": 268,
@@ -4779,6 +4782,95 @@
             "rankSlotID": 2,
             "options": ["orderahead"],
             "orders": []
+        },
+        {
+            "id": 279,
+            "name": "Barking Dog",
+            "address": "329 W 49th St, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 3,
+            "options": ["orderahead"],
+            "orders": []
+        },
+        {
+            "id": 280,
+            "name": "Planet Taco",
+            "address": "705 9th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "options": ["orderahead"],
+            "orders": [
+                "Venus Taco+",
+                "Staten Island Taco+",
+                "Quesabirria Taco+",
+                "Mexican Fries"
+            ]
+        },
+        {
+            "id": 281,
+            "name": "Aqua Boli",
+            "address": "750 9th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "options": ["orderahead"],
+            "orders": [
+                "Aqua Roll+",
+                "Fried Calamari"
+            ]
+        },
+        {
+            "id": 282,
+            "name": "red poke",
+            "address": "885 8th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "options": ["orderahead"],
+            "orders": []
+        },
+        {
+            "id": 283,
+            "name": "Poke Bowl",
+            "address": "840 8th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "rankSlotID": 2,
+            "options": ["orderahead"],
+            "orders": []
+        },
+        {
+            "id": 284,
+            "name": "Lucky's Famous Burgers",
+            "address": "370 W 52nd St, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 2,
+            "options": ["orderahead"],
+            "orders": [
+                "L.E.S. Style Burger+",
+                "Smokin' Fries+",
+                "Onion Rings"
+            ]
+        },
+        {
+            "id": 285,
+            "name": "Coddiwomple",
+            "address": "786 9th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 3,
+            "options": ["orderahead"],
+            "orders": [
+                "El Cubano"
+            ]
+        },
+        {
+            "id": 286,
+            "name": "THEP Thai",
+            "address": "1439 2nd Ave, New York, NY 10021",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper East Side"],
+            "rankSlotID": 1,
+            "options": ["dinein"],
+            "orders": [
+                "THEP Platter+",
+                "Pork Belly Clay Pot+"
+            ]
         }
     ]
 }

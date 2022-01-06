@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { FaGithub, FaRegEnvelope, FaLinkedin, FaFacebook, FaInstagram, FaSpotify, FaTelegram, FaTelegramPlane } from 'react-icons/fa';
+import { FaGithub, FaRegEnvelope, FaLinkedin, FaInstagram, FaSpotify, FaTelegramPlane } from 'react-icons/fa';
 
 import * as css from './Footer.module.css';
 
@@ -13,7 +13,7 @@ export default function Footer() {
         },
         {
             name: 'Email',
-            path: 'mailto:hello@jamesjlu.com',
+            path: 'mailto:hello@james.lu',
             icon: FaRegEnvelope,
         },
         {
