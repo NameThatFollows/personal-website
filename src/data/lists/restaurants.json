@@ -3435,9 +3435,14 @@
             ],
             "rankSlotID": 1,
             "options": [
-                "orderahead"
+                "orderahead",
+                "repeat"
             ],
-            "orders": []
+            "orders": [
+                "Chicken Bacon Ranch",
+                "Loaded Fries",
+                "Loaded Tots"
+            ]
         },
         {
             "id": 197,
@@ -3456,7 +3461,11 @@
                 "orderahead",
                 "counter"
             ],
-            "orders": []
+            "orders": [
+                "Lobster Roll+",
+                "Lobster Bisque+",
+                "Disco Chowder Fries+"
+            ]
         },
         {
             "id": 198,
@@ -3503,11 +3512,13 @@
                 "Brooklyn",
                 "Boerum Hill"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 1,
             "options": [
                 "orderahead"
             ],
-            "orders": []
+            "orders": [
+                "Poke Burrito Regular w/ Lobster Salad & Raw Salmon"
+            ]
         },
         {
             "id": 201,
@@ -4772,7 +4783,11 @@
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
             "rankSlotID": 2,
             "options": ["orderahead"],
-            "orders": []
+            "orders": [
+                "Wrangler+",
+                "French Fries",
+                "Mint Chocolate Cookies and Cream Milkshake"
+            ]
         },
         {
             "id": 278,
@@ -4834,7 +4849,10 @@
             "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
             "rankSlotID": 2,
             "options": ["orderahead"],
-            "orders": []
+            "orders": [
+                "Plenty Poke Bowl w/ Spicy Negitoro and Spicy Salmon",
+                "House Pineapple Soda"
+            ]
         },
         {
             "id": 284,
@@ -4870,6 +4888,53 @@
             "orders": [
                 "THEP Platter+",
                 "Pork Belly Clay Pot+"
+            ]
+        },
+        {
+            "id": 287,
+            "name": "Umami Burger",
+            "address": "398 10th Ave, New York, NY 10001",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hudson Yards", "Citizens Manhattan West Food Hall"],
+            "rankSlotID": 3,
+            "options": ["counter"],
+            "orders": [
+                "Truffle Burger",
+                "Truffle Fries"
+            ]
+        },
+        {
+            "id": 288,
+            "name": "Krispy Rice",
+            "address": "398 10th Ave, New York, NY 10001",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hudson Yards", "Citizens Manhattan West Food Hall"],
+            "rankSlotID": 3,
+            "options": ["counter"],
+            "orders": [
+                "Mad Tasty Box"
+            ]
+        },
+        {
+            "id": 289,
+            "name": "Shake Shack",
+            "address": "691 8th Avenue, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "rankSlotID": 3,
+            "options": ["orderahead"],
+            "orders": [
+                "Black Truffle Burger+",
+                "Parmesan Garlic Fries w/ Black Truffle Sauce+"
+            ]
+        },
+        {
+            "id": 209,
+            "name": "Just Salad",
+            "address": "321 W 49th St, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 2,
+            "options": ["orderahead", "repeat"],
+            "orders": [
+                "Buffalo Chicken Salad",
+                "Strawberry Banana Smoothie"
             ]
         }
     ]
