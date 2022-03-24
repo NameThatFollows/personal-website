@@ -1220,6 +1220,39 @@
             "orders": [
                 "Oolong Tea Latte w/ Boba; C/25%/0%"
             ]
+        },
+        {
+            "id": 107,
+            "name": "Trudan",
+            "address": "208 Grand St, New York, NY 10013",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 108,
+            "name": "Tidal Tea",
+            "address": "1520 Amsterdam Ave, New York, NY 10031",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hamilton Heights"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 109,
+            "name": "Mi Tea",
+            "address": "101 MacDougal St, New York, NY 10012",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Rose Milk Tea w/ Boba; C/50%/0%"
+            ]
         }
     ]
 }
