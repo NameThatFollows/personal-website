@@ -10,6 +10,6 @@ Right now, I work full time as a software engineer at [Bloomberg](https://www.bl
 
 My interests lie in digital cartography 🗺️ and procedural generation.
 
-I'm also interested in urban sustainability and design, particularly in cycling infrastructure 🚲, walkable communities, and public transportation 🚇.
+I'm also interested in urban sustainability and design, particularly in walkable communities and public transportation 🚇.
 
 If you want to grab a bubble tea 🍵 or just chat, feel free to reach out anytime!

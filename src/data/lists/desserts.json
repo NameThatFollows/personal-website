@@ -1,0 +1,316 @@
+{
+    "slug": "/lists/desserts",
+    "name": "Dessert Places",
+    "description": "All of the places that exclusively serve dessert or have a significant dessert offering.",
+    "additionalInfo": "Items with + are items that I would recommend.",
+    "background": "../../images/desserts.jpg",
+    "options": [],
+    "rankSlots": [
+        {
+            "rankSlotID": 1,
+            "title": "Fantastic: First Choice",
+            "description": "Exceptional. Places that are worth traveling to. Would highly recommend to friends and family."
+        },
+        {
+            "rankSlotID": 2,
+            "title": "Great",
+            "description": "Places that are fantastic if you are in the area, but are otherwise not particularly exceptional."
+        },
+        {
+            "rankSlotID": 3,
+            "title": "Fine",
+            "description": "Food is average or decent but not worth the price. May or may not be worth a visit."
+        },
+        {
+            "rankSlotID": 4,
+            "title": "Visited",
+            "description": "Have eaten at before, but would definitely not recommend."
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "name": "Sweet Moment",
+            "address": "106 Mott St, New York, NY 10013",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": [
+                "Matcha Black Sesame+"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Amorino",
+            "address": "721 8th Ave, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 3,
+            "name": "Whipped Urban Dessert Lab",
+            "address": "95 Orchard St, New York, NY 10002",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lower East Side"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 4,
+            "name": "T-Swirl Crepe",
+            "address": "19 St Marks Pl, New York, NY 10003",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 5,
+            "name": "Mochinut",
+            "address": "124 2nd Ave, New York, NY 10003",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 6,
+            "name": "Tornado Crepe",
+            "address": "86-10 Roosevelt Ave, Jackson Heights, NY 11372",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Queens", "Jackson Heights"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 7,
+            "name": "Van Leeuwen",
+            "address": "204 Wythe Ave, Brooklyn, NY 11249",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Williamsburg"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 8,
+            "name": "Van Leeuwen",
+            "address": "432 3rd Ave, New York, NY 10016",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Kips Bay"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 9,
+            "name": "Surreal Creamery",
+            "address": "538 2nd Ave, New York, NY 10016",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Kips Bay"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 10,
+            "name": "Amorino",
+            "address": "60 University Pl, New York, NY 10003",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 11,
+            "name": "Playa Bowls",
+            "address": "230 Park Ave, New York, NY 10169",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 12,
+            "name": "Juice Bar Plus",
+            "address": "700 3rd Ave, New York, NY 10017",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 13,
+            "name": "Chelsea Juice",
+            "address": "826 9th Ave, Manhattan, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 14,
+            "name": "Alimama Tea",
+            "address": "89A Bayard St, New York, NY 10013",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 15,
+            "name": "Playa Bowls",
+            "address": "108 MacDougal St, New York, NY 10012",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 16,
+            "name": "Kitsby Dessert Bar",
+            "address": "186 Grand St, Brooklyn, NY 11211",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Williamsburg"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 17,
+            "name": "Mochidoki",
+            "address": "176 Spring St, New York, NY 10012",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "SoHo"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": [
+                "Mochidoki Signature Collection+",
+                "Espresso+"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Grace Street",
+            "address": "17 W 32nd St, New York, NY 10001",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 19,
+            "name": "Tous Les Jours",
+            "address": "31 W 32nd St, New York, NY 10001",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 20,
+            "name": "Roll it Up Ice Cream",
+            "address": "5150 Buford Hwy NE d110, Doraville, GA 30340",
+            "locale": ["USA", "Atlanta Metro Area", "Buford Highway", "Doraville"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 21,
+            "name": "8 Fahrenheit Ice Cream",
+            "address": "5090 Buford Hwy NE #101, Atlanta, GA 30340",
+            "locale": ["USA", "Atlanta Metro Area", "Buford Highway", "Doraville"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 22,
+            "name": "Meet Fresh",
+            "address": "6035 Peachtree Rd SUITE A116, Atlanta, GA 30360",
+            "locale": ["USA", "Atlanta Metro Area", "Buford Highway", "Doraville"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 23,
+            "name": "Kilwins",
+            "address": "1380 Atlantic Dr NW #14160, Atlanta, GA 30363",
+            "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown", "Atlantic Station"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 24,
+            "name": "Jeni's Splendid Ice Creams",
+            "address": "545 N McDonough St, Decatur, GA 30030",
+            "locale": ["USA", "Atlanta Metro Area", "Decatur"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 25,
+            "name": "Jeni's Splendid Ice Creams",
+            "address": "1198 Howell Mill Rd, Atlanta, GA 30318",
+            "locale": ["USA", "Atlanta Metro Area", "Atlanta", "West Midtown"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 26,
+            "name": "Sublime Doughnuts",
+            "address": "535 10th St NW, Atlanta, GA 30318",
+            "locale": ["USA", "Atlanta Metro Area", "Atlanta", "West Midtown"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 27,
+            "name": "Insomnia Cookies",
+            "address": "930 Spring St NW, Atlanta, GA 30309",
+            "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 28,
+            "name": "Tiff's Treats",
+            "address": "848 Spring St NW Ste B, Atlanta, GA 30308",
+            "locale": ["USA", "Atlanta Metro Area", "Atlanta", "Midtown"],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 29,
+            "name": "ICICLES",
+            "address": "829 Mission St, San Francisco, CA 94103",
+            "locale": ["USA", "SF Bay Area", "San Francisco", "SOMA"],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 30,
+            "name": "Garden Creamery",
+            "address": "3566 20th St, San Francisco, CA 94110",
+            "locale": ["USA", "SF Bay Area", "San Francisco", "Mission District"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 31,
+            "name": "Taiyaki NYC",
+            "address": "119 Baxter St, New York, NY 10013",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": []
+        }
+    ]
+}

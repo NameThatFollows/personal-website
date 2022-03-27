@@ -3,28 +3,28 @@
     "name": "Bubble Tea",
     "description": "Places that sell the Taiwanese cold drink made with tea, milk, and tapioca pearls and other variations.",
     "additionalInfo": "Each order is in the following format: Drink Name; Hot or Cold/Sugar Level/Ice Level",
-    "options": [],
     "background": "../../images/bubble-tea.jpg",
+    "options": [],
     "rankSlots": [
         {
             "rankSlotID": 1,
-            "title": "Fantastic",
-            "description": "If I could only go to one place, any of these would be great."
+            "title": "Fantastic: First Choice",
+            "description": "Exceptional. Places that are worth traveling to. Would highly recommend to friends and family."
         },
         {
             "rankSlotID": 2,
             "title": "Great",
-            "description": "Great option if you are in the area."
+            "description": "Places that are fantastic if you are in the area, but are otherwise not particularly exceptional."
         },
         {
             "rankSlotID": 3,
             "title": "Fine",
-            "description": "Good option if there isn't anything better in the area."
+            "description": "Food is average or decent but not worth the price. May or may not be worth a visit."
         },
         {
             "rankSlotID": 4,
             "title": "Visited",
-            "description": "Have been but would definitely not recommend."
+            "description": "Have eaten at before, but would definitely not recommend."
         }
     ],
     "items": [
@@ -32,7 +32,7 @@
             "id": 1,
             "name": "Brew Cha",
             "address": "3420 18th St #001, San Francisco, CA 94110",
-            "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
+            "locale": ["USA", "SF Bay Area", "San Francisco", "Mission District"],
             "rankSlotID": 1,
             "options": [],
             "orders": [
@@ -197,7 +197,7 @@
             "id": 15,
             "name": "Boba Guys",
             "address": "3491 19th St, San Francisco, CA 94110",
-            "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
+            "locale": ["USA", "SF Bay Area", "San Francisco", "Mission District"],
             "rankSlotID": 1,
             "options": [],
             "orders": [
@@ -544,7 +544,7 @@
             "id": 46,
             "name": "Identitea",
             "address": "3109 24th St, San Francisco, CA 94110",
-            "locale": ["USA", "SF Bay Area", "San Francisco", "Mission"],
+            "locale": ["USA", "SF Bay Area", "San Francisco", "Mission District"],
             "rankSlotID": 3,
             "options": [],
             "orders": [
