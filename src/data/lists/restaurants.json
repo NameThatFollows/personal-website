@@ -446,7 +446,7 @@
                 "San Francisco",
                 "Mission District"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "counter",
                 "dinein",
@@ -2512,7 +2512,7 @@
                 "Manhattan",
                 "Midtown"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "counter"
             ],
@@ -3261,7 +3261,7 @@
                 "Manhattan",
                 "Upper East Side"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead"
             ],
@@ -3296,7 +3296,7 @@
                 "Manhattan",
                 "Flatiron"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead"
             ],
@@ -3433,7 +3433,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead",
                 "repeat"
@@ -5209,6 +5209,31 @@
             "rankSlotID": 2,
             "options": ["dinein"],
             "orders": []
+        },
+        {
+            "id": 315,
+            "name": "Suprema Provisions",
+            "address": "305 Bleecker St, New York, NY 10014",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "West Village"],
+            "rankSlotID": 3,
+            "options": ["dinein"],
+            "orders": [
+                "Tuna Tartare Ciotola",
+                "Burrata Carbonara",
+                "Suprema Burger"
+            ]
+        },
+        {
+            "id": 316,
+            "name": "Sabai Thai",
+            "address": "432 Park Ave S, New York, NY 10016",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "NoMad"],
+            "rankSlotID": 2,
+            "options": ["dinein"],
+            "orders": [
+                "Sabai Sampler+",
+                "Pad Kra Pao Gai Quail Egg"
+            ]
         }
     ]
 }
