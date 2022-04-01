@@ -3,8 +3,13 @@ type: resume
 title: "Experience"
 ---
 
+## MongoDB
+> Apr 2022 - Present // New York, NY
+>
+> Software Engineer III
+
 ## Bloomberg L.P.
-> Jan 2020 - Present // New York, NY
+> Jan 2020 - Apr 2022 // New York, NY
 >
 > Software Engineer
 
