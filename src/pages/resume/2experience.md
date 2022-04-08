@@ -6,12 +6,12 @@ title: "Experience"
 ## MongoDB
 > Apr 2022 - Present // New York, NY
 >
-> Software Engineer III
+> Software Engineer - Cloud Automation
 
 ## Bloomberg L.P.
 > Jan 2020 - Apr 2022 // New York, NY
 >
-> Software Engineer
+> Software Engineer - ENG Ticketing Platform
 
 - Enhance a flexible, internal ticketing system within the Bloomberg Terminal, used extensively by 100+ groups, including customer service, IT, facilities, supply chain, and HR, handling millions of daily operations.
 - Develop and maintain a dynamic ticket distribution system alongside ticket & agent monitoring tools to help agents and managers quickly handle thousands of new tickets as quickly as efficiently as possible
@@ -22,7 +22,7 @@ title: "Experience"
 ## Facebook
 > May 2019 - Aug 2019 // Menlo Park, CA
 >
-> Software Engineer Intern
+> Software Engineer Intern - Messenger Platform
 
 - Optimized code responsible for creating groups and routing those chats to the desired location, impacting millions of Facebook Messenger users and chats.
 - Developed and updated internal tools to efficiently and safely debug message routing, folder routing, and contacts using ReasonML and React.
@@ -60,7 +60,7 @@ title: "Experience"
 ## Verizon Connect
 > Jun 2018 - Aug 2018 // Atlanta, GA
 >
-> Software Engineer Intern
+> Software Engineer Intern - Hum Product
 
 - Created a full stack, proof of concept activity feed to reorganize system-generated content and add social functionality.
 - Developed a React/Typescript web application to allow testers to dynamically add and remove content in activity feeds for use in user testing and interviews.

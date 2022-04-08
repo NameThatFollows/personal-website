@@ -3010,7 +3010,7 @@
         },
         {
             "id": 172,
-            "name": "99 Flavor Taste",
+            "name": "99 Favor Taste",
             "address": "285 Grand St, New York, NY 10002",
             "locale": [
                 "USA",
@@ -5233,6 +5233,18 @@
             "orders": [
                 "Sabai Sampler+",
                 "Pad Kra Pao Gai Quail Egg"
+            ]
+        },
+        {
+            "id": 317,
+            "name": "Whitmans",
+            "address": "406 E 9th St, New York, NY 10009",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "rankSlotID": 2,
+            "options": ["dinein"],
+            "orders": [
+                "Juicy Lucy+",
+                "The Hound+"
             ]
         }
     ]
