@@ -311,6 +311,17 @@
             "rankSlotID": 1,
             "options": [],
             "orders": []
+        },
+        {
+            "id": 32,
+            "name": "Fresh From Hell",
+            "address": "326 W 47th St, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": [
+                "Hell's Kitchen Sink Bowl+"
+            ]
         }
     ]
 }

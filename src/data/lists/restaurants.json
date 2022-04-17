@@ -5246,6 +5246,43 @@
                 "Juicy Lucy+",
                 "The Hound+"
             ]
+        },
+        {
+            "id": 318,
+            "name": "Pure Thai Cookhouse",
+            "address": "766 9th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 2,
+            "options": ["dinein"],
+            "orders": [
+                "Pad Thai",
+                "Thai Iced Tea"
+            ]
+        },
+        {
+            "id": 319,
+            "name": "Bombay Grill House",
+            "address": "764 9th Ave, New York, NY 10019",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 2,
+            "options": ["orderahead"],
+            "orders": [
+                "Garlic Naan+",
+                "Chicken Tikka Masala",
+                "Lamb Seekh Kabab"
+            ]
+        },
+        {
+            "id": 320,
+            "name": "UT47",
+            "address": "358 W 47th St, New York, NY 10036",
+            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "rankSlotID": 1,
+            "options": ["orderahead"],
+            "orders": [
+                "Sweet Baked Bacon Grilled Cheese Panini+",
+                "Rose Latte+"
+            ]
         }
     ]
 }
