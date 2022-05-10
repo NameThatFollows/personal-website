@@ -16,7 +16,7 @@ export default function Project({ node }) {
       <div className={css.content}>
         {projectHeader}
         <h2>{node.frontmatter.startDate} - {endDate}</h2>
-        <div dangerouslySetInnerHTML={{__html: node.html}} />
+        <div dangerouslySetInnerHTML={{ __html: node.html }} />
       </div>
     </div>
   );

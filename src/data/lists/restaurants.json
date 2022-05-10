@@ -4613,10 +4613,16 @@
             "name": "Pommes Frites",
             "address": "128 MacDougal St, New York, NY 10012",
             "locale": [
-                "USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Greenwich Village"
             ],
             "rankSlotID": 2,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": []
         },
         {
@@ -4624,10 +4630,16 @@
             "name": "Sacco Pizza",
             "address": "819 9th Ave, New York, NY 10019",
             "locale": [
-                "USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
             ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
@@ -4635,10 +4647,16 @@
             "name": "Hou Yi Hot Pot",
             "address": "92 Hester St, New York, NY 10002",
             "locale": [
-                "USA", "NYC Metro Area", "New York City", "Manhattan", "Chinatown"
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Chinatown"
             ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
@@ -4646,10 +4664,16 @@
             "name": "Famous Amadeus",
             "address": "840 8th Avenue, New York, 10019",
             "locale": [
-                "USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
             ],
             "rankSlotID": 3,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": []
         },
         {
@@ -4657,10 +4681,16 @@
             "name": "The Mermaid Inn",
             "address": "570 Amsterdam Ave, New York, NY 10024",
             "locale": [
-                "USA", "NYC Metro Area", "New York City", "Manhattan", "Upper West Side"
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Upper West Side"
             ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
@@ -4668,28 +4698,51 @@
             "name": "Dig Inn",
             "address": "856 8th Ave, New York, NY 10019",
             "locale": [
-                "USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
             ],
             "rankSlotID": 2,
-            "options": ["orderahead", "repeat"],
+            "options": [
+                "orderahead",
+                "repeat"
+            ],
             "orders": []
         },
         {
             "id": 266,
             "name": "Her Name is Han",
             "address": "17 E 31st St, New York, NY 10016",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Koreatown"
+            ],
             "rankSlotID": 1,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
             "id": 267,
             "name": "Shake Shack",
             "address": "1700 Broadway, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Black Truffle Burger+",
                 "Parmesan Garlic Fries w/ Black Truffle Sauce+"
@@ -4699,90 +4752,171 @@
             "id": 268,
             "name": "Empanada Mama",
             "address": "765 9th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 1,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
             "id": 269,
             "name": "East Harbor Seafood Palace",
             "address": "714 65th St, Brooklyn, NY 11220",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Brooklyn", "Sunset Park"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Brooklyn",
+                "Sunset Park"
+            ],
             "rankSlotID": 1,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
             "id": 270,
             "name": "Take 31",
             "address": "15 E 31st St, New York, NY 10016",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Koreatown"
+            ],
             "rankSlotID": 1,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
             "id": 271,
             "name": "Los Tacos No. 1",
             "address": "125 Park Ave, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Murray Hill"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Murray Hill"
+            ],
             "rankSlotID": 1,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": []
         },
         {
             "id": 272,
             "name": "Hell's Kitchen Pizza",
             "address": "696 9th Ave, New York, NY 10036",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 2,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": []
         },
         {
             "id": 273,
             "name": "MONO+MONO",
             "address": "116 E 4th St, New York, NY 10003",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "East Village"
+            ],
             "rankSlotID": 3,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
             "id": 274,
             "name": "T-Swirl Crepe",
             "address": "116 E 4th St, New York, NY 10003",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "East Village"
+            ],
             "rankSlotID": 1,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": []
         },
         {
             "id": 275,
             "name": "Chipotle",
             "address": "854 8th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
+            ],
             "rankSlotID": 2,
-            "options": ["counter", "orderahead"],
+            "options": [
+                "counter",
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 276,
             "name": "Root & Bone",
             "address": "200 E 3rd St, New York, NY 10009",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "East Village"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
             "id": 277,
             "name": "Bareburger",
             "address": "366 W 46th St, New York, NY 10036",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Wrangler+",
                 "French Fries",
@@ -4793,27 +4927,51 @@
             "id": 278,
             "name": "Tartinery",
             "address": "10 Columbus Cir 3rd Floor, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Columbus Circle"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Columbus Circle"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 279,
             "name": "Barking Dog",
             "address": "329 W 49th St, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 3,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 280,
             "name": "Planet Taco",
             "address": "705 9th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 1,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Venus Taco+",
                 "Staten Island Taco+",
@@ -4825,9 +4983,17 @@
             "id": 281,
             "name": "Aqua Boil",
             "address": "750 9th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 1,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Aqua Roll+",
                 "Fried Calamari"
@@ -4837,18 +5003,34 @@
             "id": 282,
             "name": "red poke",
             "address": "885 8th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 1,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 283,
             "name": "Poke Bowl",
             "address": "840 8th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Plenty Poke Bowl w/ Spicy Negitoro and Spicy Salmon",
                 "House Pineapple Soda"
@@ -4858,9 +5040,17 @@
             "id": 284,
             "name": "Lucky's Famous Burgers",
             "address": "370 W 52nd St, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "L.E.S. Style Burger+",
                 "Smokin' Fries+",
@@ -4871,9 +5061,17 @@
             "id": 285,
             "name": "Coddiwomple",
             "address": "786 9th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 3,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "El Cubano"
             ]
@@ -4882,9 +5080,17 @@
             "id": 286,
             "name": "THEP Thai",
             "address": "1439 2nd Ave, New York, NY 10021",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Upper East Side"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Upper East Side"
+            ],
             "rankSlotID": 1,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "THEP Platter+",
                 "Pork Belly Clay Pot+"
@@ -4894,9 +5100,18 @@
             "id": 287,
             "name": "Umami Burger",
             "address": "398 10th Ave, New York, NY 10001",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hudson Yards", "Citizens Manhattan West Food Hall"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hudson Yards",
+                "Citizens Manhattan West Food Hall"
+            ],
             "rankSlotID": 3,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": [
                 "Truffle Burger",
                 "Truffle Fries"
@@ -4906,9 +5121,18 @@
             "id": 288,
             "name": "Krispy Rice",
             "address": "398 10th Ave, New York, NY 10001",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hudson Yards", "Citizens Manhattan West Food Hall"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hudson Yards",
+                "Citizens Manhattan West Food Hall"
+            ],
             "rankSlotID": 3,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": [
                 "Mad Tasty Box"
             ]
@@ -4917,9 +5141,17 @@
             "id": 289,
             "name": "Shake Shack",
             "address": "691 8th Avenue, New York, NY 10036",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
+            ],
             "rankSlotID": 3,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Black Truffle Burger+",
                 "Parmesan Garlic Fries w/ Black Truffle Sauce+"
@@ -4929,9 +5161,18 @@
             "id": 290,
             "name": "Just Salad",
             "address": "321 W 49th St, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead", "repeat"],
+            "options": [
+                "orderahead",
+                "repeat"
+            ],
             "orders": [
                 "Buffalo Chicken Salad",
                 "Strawberry Banana Smoothie"
@@ -4941,9 +5182,17 @@
             "id": 291,
             "name": "Dolly Varden",
             "address": "302 W 51st St, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 1,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Truffle Mac & Cheese+",
                 "DV Truffle Fries+",
@@ -4955,9 +5204,17 @@
             "id": 292,
             "name": "Fiorentina Pizzeria and Grill",
             "address": "852 8th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
+            ],
             "rankSlotID": 3,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": [
                 "Cheese Slice",
                 "Buffalo Slice",
@@ -4968,9 +5225,17 @@
             "id": 293,
             "name": "Chick-fil-A",
             "address": "918 8th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Columbus Circle"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Columbus Circle"
+            ],
             "rankSlotID": 3,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Spicy Chicken Sandwich Deluxe",
                 "Waffle Fries"
@@ -4980,9 +5245,17 @@
             "id": 294,
             "name": "S'MAC",
             "address": "197 1st Ave, New York, NY 10003",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "East Village"
+            ],
             "rankSlotID": 1,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": [
                 "Cajun (Major Munch)+"
             ]
@@ -4991,9 +5264,17 @@
             "id": 295,
             "name": "Kimika",
             "address": "40 Kenmare St, New York, NY 10012",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Nolita"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Nolita"
+            ],
             "rankSlotID": 4,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Tuna Tartare+",
                 "Roe Roe Roe Roe Spaghetti",
@@ -5006,9 +5287,17 @@
             "id": 296,
             "name": "Ribalta",
             "address": "48 E 12th St, New York, NY 10003",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Union Square"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Union Square"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Borbone+",
                 "Rigatoni Alla Carbonara"
@@ -5018,9 +5307,17 @@
             "id": 297,
             "name": "miss KOREA BBQ",
             "address": "10 W 32nd St, New York, NY 10001",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Koreatown"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Koreatown"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Claypot Marinated Beef Short Rib+",
                 "Ohsam Bokkeum+",
@@ -5031,9 +5328,17 @@
             "id": 298,
             "name": "Stone Bridge Pizza & Salad",
             "address": "16 E 41st St, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Meat Lover+"
             ]
@@ -5042,9 +5347,17 @@
             "id": 299,
             "name": "Pokeworks",
             "address": "117 E 41st St, New York, NY 10168",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Spicy Ahi Bowl+"
             ]
@@ -5053,9 +5366,17 @@
             "id": 300,
             "name": "Sweetcatch Poke",
             "address": "100 Park Ave, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Blazing Tuna+",
                 "Triple Threat+",
@@ -5066,9 +5387,17 @@
             "id": 301,
             "name": "The Little Beat",
             "address": "125 Park Ave, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Brussel Hustle w/ Chicken+",
                 "Seasonal Chicken Bowl+"
@@ -5078,9 +5407,17 @@
             "id": 302,
             "name": "Dill & Parsley",
             "address": "295 Madison Ave Ground Floor, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Falafel Bowl+"
             ]
@@ -5089,9 +5426,17 @@
             "id": 303,
             "name": "INDAY",
             "address": "285 Madison Ave, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Charred Chicken Bowl+"
             ]
@@ -5100,9 +5445,18 @@
             "id": 304,
             "name": "Naya",
             "address": "688 3rd Ave, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 1,
-            "options": ["orderahead", "counter"],
+            "options": [
+                "orderahead",
+                "counter"
+            ],
             "orders": [
                 "Chicken Shawarma Bowl+",
                 "Kafta Lamb Kebab Bowl+"
@@ -5112,9 +5466,17 @@
             "id": 305,
             "name": "Just Salad",
             "address": "315 Madison Ave, New York, NY 10017",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown East"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown East"
+            ],
             "rankSlotID": 3,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Chicken Caesar+"
             ]
@@ -5123,9 +5485,17 @@
             "id": 306,
             "name": "Real Kung Fu Little Steamed Buns",
             "address": "811 8th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 3,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Scallion Pancake",
                 "Kung Fu Steamed Buns (Soup Dumplings)",
@@ -5136,9 +5506,17 @@
             "id": 307,
             "name": "Corner Slice",
             "address": "600 11th Ave, W 45th St, New York, NY 10036",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 3,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": [
                 "Pepperoni Slice",
                 "Margherita Slice",
@@ -5149,9 +5527,17 @@
             "id": 308,
             "name": "Banter NYC",
             "address": "169 Sullivan St, New York, NY 10012",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Greenwich Village"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Greenwich Village"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Golden Folded Eggs+"
             ]
@@ -5160,63 +5546,119 @@
             "id": 309,
             "name": "Harlem Public",
             "address": "3612 Broadway, New York, NY 10031",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hamilton Heights"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hamilton Heights"
+            ],
             "rankSlotID": 1,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 310,
             "name": "Bonchon",
             "address": "207 W 38th St, New York, NY 10018",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Times Square"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Times Square"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 311,
             "name": "Blintz Box",
             "address": "1000s 8th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Columbus Circle"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Columbus Circle"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 312,
             "name": "Burger Village",
             "address": "307 W 38th St, New York, NY 10018",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 3,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": []
         },
         {
             "id": 313,
             "name": "The Kati Roll Company",
             "address": "49 W 39th St, New York, NY 10018",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Midtown South"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown South"
+            ],
             "rankSlotID": 2,
-            "options": ["counter"],
+            "options": [
+                "counter"
+            ],
             "orders": []
         },
         {
             "id": 314,
             "name": "La Contenta",
             "address": "102 Norfolk St, New York, NY 10002",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Lower East Side"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Lower East Side"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": []
         },
         {
             "id": 315,
             "name": "Suprema Provisions",
             "address": "305 Bleecker St, New York, NY 10014",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "West Village"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "West Village"
+            ],
             "rankSlotID": 3,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Tuna Tartare Ciotola",
                 "Burrata Carbonara",
@@ -5227,9 +5669,17 @@
             "id": 316,
             "name": "Sabai Thai",
             "address": "432 Park Ave S, New York, NY 10016",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "NoMad"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "NoMad"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Sabai Sampler+",
                 "Pad Kra Pao Gai Quail Egg"
@@ -5239,9 +5689,17 @@
             "id": 317,
             "name": "Whitmans",
             "address": "406 E 9th St, New York, NY 10009",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "East Village"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "East Village"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Juicy Lucy+",
                 "The Hound+"
@@ -5251,9 +5709,17 @@
             "id": 318,
             "name": "Pure Thai Cookhouse",
             "address": "766 9th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 2,
-            "options": ["dinein"],
+            "options": [
+                "dinein"
+            ],
             "orders": [
                 "Pad Thai",
                 "Thai Iced Tea"
@@ -5263,9 +5729,17 @@
             "id": 319,
             "name": "Bombay Grill House",
             "address": "764 9th Ave, New York, NY 10019",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 2,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Garlic Naan+",
                 "Chicken Tikka Masala",
@@ -5276,9 +5750,17 @@
             "id": 320,
             "name": "UT47",
             "address": "358 W 47th St, New York, NY 10036",
-            "locale": ["USA", "NYC Metro Area", "New York City", "Manhattan", "Hell's Kitchen"],
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
             "rankSlotID": 1,
-            "options": ["orderahead"],
+            "options": [
+                "orderahead"
+            ],
             "orders": [
                 "Sweet Baked Bacon Grilled Cheese Panini+",
                 "Rose Latte+"

@@ -8,7 +8,7 @@ export default function Home({ data }) {
   return (
     <div className='page'>
       <Header active='Home' />
-      <div className='content' dangerouslySetInnerHTML={{__html: data.allMarkdownRemark.nodes[0].html}} />
+      <div className='content' dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.nodes[0].html }} />
       <Footer />
     </div>
   );

@@ -15,7 +15,7 @@ export default function Resume({ data }) {
         <div className={css.resumeSectionTitleContainer}>
           <h1 className={css.resumeSectionTitle}>{node.frontmatter.title}</h1>
         </div>
-        <div className={css.resumeSectionContent} dangerouslySetInnerHTML={{__html: node.html}} />
+        <div className={css.resumeSectionContent} dangerouslySetInnerHTML={{ __html: node.html }} />
       </div>
     );
   });

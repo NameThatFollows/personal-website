@@ -40,7 +40,7 @@
     transition: all 0.3s;
 }
 
-.listTile:hover * + .listTileImageOverlay {
+.listTile:hover *+.listTileImageOverlay {
     background-color: rgba(0, 0, 0, 0.75);
     transition: all 0.3s;
 }

@@ -50,7 +50,7 @@ export default function Footer() {
     return (
         <div className={css.footer}>
             <div className={css.navigation}>
-                <IconContext.Provider value={{ color: 'black', size: '1.5em'}}>
+                <IconContext.Provider value={{ color: 'black', size: '1.5em' }}>
                     {footerLinks}
                 </IconContext.Provider>
             </div>
