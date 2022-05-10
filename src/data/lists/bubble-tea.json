@@ -1855,6 +1855,22 @@
             "orders": [
                 "Rose Milk Tea w/ Boba; C/50%/0%"
             ]
+        },
+        {
+            "id": 110,
+            "name": "Tsaocaa",
+            "address": "5871 Forbes Ave, Pittsburgh, PA 15217",
+            "locale": [
+                "USA",
+                "Pittsburgh Metro Area",
+                "Pittsburgh",
+                "Squirrel Hill"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Peach Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
         }
     ]
 }

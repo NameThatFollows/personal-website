@@ -1,7 +1,7 @@
 {
-    "slug": "/lists/desserts",
-    "name": "Dessert Places",
-    "description": "All of the places that exclusively serve dessert or have a significant dessert offering.",
+    "slug": "/lists/sweets",
+    "name": "Sweets/Desserts",
+    "description": "All of the places that exclusively serve sweets or have a significant dessert offering.",
     "additionalInfo": "Items with + are items that I would recommend.",
     "background": "../../images/desserts.jpg",
     "options": [],

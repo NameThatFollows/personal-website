@@ -118,7 +118,7 @@
                 "Manhattan",
                 "East Village"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "dinein"
             ],
@@ -225,7 +225,7 @@
                 "Manhattan",
                 "Murray Hill"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead",
                 "repeat"
@@ -248,7 +248,7 @@
                 "Manhattan",
                 "Upper East Side"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead",
                 "repeat"
@@ -315,7 +315,7 @@
                 "Queens",
                 "Jackson Heights"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead",
                 "repeat"
@@ -424,7 +424,7 @@
                 "Queens",
                 "Jackson Heights"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead",
                 "repeat"
@@ -503,7 +503,7 @@
                 "San Francisco",
                 "SOMA"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -522,7 +522,7 @@
                 "San Francisco",
                 "SOMA"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "counter",
                 "repeat"
@@ -542,7 +542,7 @@
                 "San Francisco",
                 "SOMA"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -615,7 +615,7 @@
                 "Atlanta",
                 "West Midtown"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 2,
             "options": [
                 "dinein",
                 "repeat"
@@ -789,7 +789,7 @@
                 "Atlanta",
                 "Midtown"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 1,
             "options": [
                 "dinein"
             ],
@@ -838,7 +838,7 @@
                 "Atlanta",
                 "Midtown"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "counter",
                 "repeat"
@@ -961,7 +961,7 @@
                 "Midtown",
                 "The District @ Howell Mill"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -978,7 +978,7 @@
                 "Buckhead",
                 "Buckhead Village"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -1038,7 +1038,7 @@
                 "Buford Highway",
                 "Doraville"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "dinein"
             ],
@@ -1054,7 +1054,7 @@
                 "Buford Highway",
                 "Doraville"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "dinein"
             ],
@@ -1100,7 +1100,7 @@
                 "Atlanta Metro Area",
                 "Chamblee"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "counter"
             ],
@@ -1116,7 +1116,7 @@
                 "Atlanta",
                 "Downtown"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "dinein"
             ],
@@ -1132,7 +1132,7 @@
                 "Atlanta",
                 "Downtown"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "counter"
             ],
@@ -1351,7 +1351,7 @@
                 "Arlington",
                 "Ballston"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "dinein"
             ],
@@ -1361,7 +1361,7 @@
         },
         {
             "id": 72,
-            "name": "Dim Sum Garden",
+            "name": "Dim Sum Garden (from 2016)",
             "address": "1020 Race St, Philadelphia, PA 19107",
             "locale": [
                 "USA",
@@ -1370,7 +1370,7 @@
                 "Center City",
                 "Chinatown"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "dinein"
             ],
@@ -1507,7 +1507,7 @@
                 "West Philadelphia",
                 "University City"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -1523,7 +1523,7 @@
                 "Pittsburgh",
                 "Squirrel Hill"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -1556,7 +1556,7 @@
                 "River North",
                 "Magnificent Mile"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -1704,7 +1704,7 @@
                 "San Francisco",
                 "Fisherman's Wharf"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "counter"
             ],
@@ -1722,7 +1722,7 @@
                 "San Francisco",
                 "Fisherman's Wharf"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -1802,7 +1802,7 @@
                 "San Francisco",
                 "Financial District"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -1850,7 +1850,7 @@
                 "San Francisco",
                 "Chinatown"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -1866,7 +1866,7 @@
                 "San Francisco",
                 "SOMA"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -2074,7 +2074,7 @@
                 "San Francisco",
                 "SOMA"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -2122,7 +2122,7 @@
                 "Peninsula",
                 "SFO"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "counter"
             ],
@@ -2281,7 +2281,7 @@
                 "Boston",
                 "BOS"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "counter"
             ],
@@ -2315,7 +2315,7 @@
                 "Manhattan",
                 "Chinatown"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead"
             ],
@@ -2444,7 +2444,7 @@
                 "Queens",
                 "Jackson Heights"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -2495,7 +2495,7 @@
                 "North Jersey",
                 "Woodbridge"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -2546,7 +2546,7 @@
                 "Manhattan",
                 "Chinatown"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -2613,7 +2613,7 @@
                 "Harrisburg",
                 "Paxtang"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "dinein"
             ],
@@ -2917,7 +2917,7 @@
                 "Manhattan",
                 "Midtown East"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -3019,7 +3019,7 @@
                 "Manhattan",
                 "Chinatown"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "dinein",
                 "repeat"
@@ -3037,7 +3037,7 @@
                 "Manhattan",
                 "Greenwich Village"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -3071,7 +3071,7 @@
                 "Manhattan",
                 "Flatiron"
             ],
-            "rankSlotID": 4,
+            "rankSlotID": 3,
             "options": [
                 "counter",
                 "orderahead"
@@ -3087,6 +3087,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 1,
@@ -3141,7 +3142,7 @@
                 "Harrisburg",
                 "Progress"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead"
             ],
@@ -3227,7 +3228,7 @@
                 "Manhattan",
                 "Midtown East"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "orderahead"
             ],
@@ -3244,7 +3245,7 @@
                 "Manhattan",
                 "West Village"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -3512,7 +3513,7 @@
                 "Brooklyn",
                 "Boerum Hill"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead"
             ],
@@ -3529,9 +3530,10 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead"
             ],
@@ -3599,7 +3601,7 @@
                 "Manhattan",
                 "NoMad"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead"
             ],
@@ -3616,7 +3618,7 @@
                 "Queens",
                 "Long Island City"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead"
             ],
@@ -3859,7 +3861,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 1,
             "options": [
                 "orderahead"
             ],
@@ -3942,6 +3944,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 2,
@@ -4188,7 +4191,7 @@
                 "Brooklyn",
                 "Bushwick"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead"
             ],
@@ -4480,6 +4483,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 3,
@@ -4668,6 +4672,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 3,
@@ -4687,7 +4692,7 @@
                 "Manhattan",
                 "Upper West Side"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -4702,9 +4707,10 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead",
                 "repeat"
@@ -4737,6 +4743,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 2,
@@ -4827,7 +4834,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "counter"
             ],
@@ -4876,6 +4883,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 2,
@@ -4968,7 +4976,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead"
             ],
@@ -4990,7 +4998,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead"
             ],
@@ -5025,6 +5033,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 2,
@@ -5146,6 +5155,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 3,
@@ -5168,7 +5178,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "orderahead",
                 "repeat"
@@ -5209,6 +5219,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 3,
@@ -5314,7 +5325,7 @@
                 "Manhattan",
                 "Koreatown"
             ],
-            "rankSlotID": 2,
+            "rankSlotID": 3,
             "options": [
                 "dinein"
             ],
@@ -5513,7 +5524,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "counter"
             ],
@@ -5568,6 +5579,7 @@
                 "NYC Metro Area",
                 "New York City",
                 "Manhattan",
+                "Midtown",
                 "Times Square"
             ],
             "rankSlotID": 2,
@@ -5604,7 +5616,7 @@
                 "Manhattan",
                 "Hell's Kitchen"
             ],
-            "rankSlotID": 3,
+            "rankSlotID": 4,
             "options": [
                 "orderahead"
             ],
@@ -5764,6 +5776,305 @@
             "orders": [
                 "Sweet Baked Bacon Grilled Cheese Panini+",
                 "Rose Latte+"
+            ]
+        },
+        {
+            "id": 321,
+            "name": "Chama Mama",
+            "address": "149 W 14th St, New York, NY 10011",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Chelsea"
+            ],
+            "rankSlotID": 1,
+            "options": [
+                "dinein"
+            ],
+            "orders": [
+                "Taste of Georgia+",
+                "Khinkali",
+                "Chakapuli With Lamb",
+                "Pork Mtsvadi+",
+                "Napoleon+",
+                "Pelamushi+"
+            ]
+        },
+        {
+            "id": 322,
+            "name": "Rowdy Rooster",
+            "address": "149 1st Ave., New York, NY 10003",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "East Village"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Big Rowdy (Rebel Heat Level)+"
+            ]
+        },
+        {
+            "id": 323,
+            "name": "Black Iron Burger",
+            "address": "250 W 54th St, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Columbus Circle"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "The Masterpiece",
+                "Truffle Cheese Fries",
+                "Onion Rings"
+            ]
+        },
+        {
+            "id": 324,
+            "name": "Soju",
+            "address": "4923 Penn Ave, Pittsburgh, PA 15224",
+            "locale": [
+                "USA",
+                "Pittsburgh Metro Area",
+                "Pittsburgh",
+                "Garfield"
+            ],
+            "rankSlotID": 1,
+            "options": [
+                "dinein"
+            ],
+            "orders": [
+                "Killer Tofu+",
+                "Chicken Katsu",
+                "Kalbi+",
+                "Korean \"Poutine\"+"
+            ]
+        },
+        {
+            "id": 325,
+            "name": "Margaux",
+            "address": "5947 Penn Ave, Pittsburgh, PA 15206",
+            "locale": [
+                "USA",
+                "Pittsburgh Metro Area",
+                "Pittsburgh",
+                "East Liberty"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": [
+                "Matcha Latte+",
+                "Smoked Salmon Toast+",
+                "Nutella Toast"
+            ]
+        },
+        {
+            "id": 326,
+            "name": "Omar's Halal Grill",
+            "address": "4208 Forbes Ave, Pittsburgh, PA 15213",
+            "locale": [
+                "USA",
+                "Pittsburgh Metro Area",
+                "Pittsburgh",
+                "North Oakland"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "counter"
+            ],
+            "orders": [
+                "Chicken Wrap+",
+                "Fries+"
+            ]
+        },
+        {
+            "id": 327,
+            "name": "Flacoz Tacoz",
+            "address": "441 3rd Ave, New York, NY 10016",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Kips Bay"
+            ],
+            "rankSlotID": 4,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Pollo Asado Burrito w/ Guacamole"
+            ]
+        },
+        {
+            "id": 328,
+            "name": "Uptown Poke",
+            "address": "506 Amsterdam Ave, New York, NY 10024",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Upper West Side"
+            ],
+            "rankSlotID": 1,
+            "options": [
+                "orderahead",
+                "repeat"
+            ],
+            "orders": [
+                "Salmon Special+",
+                "The West Side+"
+            ]
+        },
+        {
+            "id": 329,
+            "name": "Quinoa Kitchen",
+            "address": "287 Bedford Ave, Brooklyn, NY 11211",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Brooklyn",
+                "Williamsburg"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Angus Steak Bowl w/ Roasted Brussel Sprouts"
+            ]
+        },
+        {
+            "id": 330,
+            "name": "Cosi",
+            "address": "532 W 46th St, New York, NY 10036",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 4,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Ham & Swiss w/ Original Bread"
+            ]
+        },
+        {
+            "id": 331,
+            "name": "EONS Greek",
+            "address": "633 2nd Ave, New York, NY 10016",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Murray Hill"
+            ],
+            "rankSlotID": 1,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Eons Greek Bowl w/ Hummus, Eons Salad, Chickpea Salad+"
+            ]
+        },
+        {
+            "id": 332,
+            "name": "Num Pang",
+            "address": "133 West 38th Street, New York, NY 10018",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown",
+                "Times Square"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "5-Spice Pork Belly Sandwich"
+            ]
+        },
+        {
+            "id": 333,
+            "name": "Oxido",
+            "address": "1450 Broadway, New York, NY 10018",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown South",
+                "Bryant Park"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Oxido Bowl Combo w/ Guacamole"
+            ]
+        },
+        {
+            "id": 334,
+            "name": "Fresh & Co",
+            "address": "200 W 57th St, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Columbus Circle"
+            ],
+            "rankSlotID": 4,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Create Market Plate, Roasted Brussels, Mac & Cheese"
+            ]
+        },
+        {
+            "id": 335,
+            "name": "Honeybrains",
+            "address": "916 8th Ave, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Columbus Circle"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Chicken & Rice Bowl+"
             ]
         }
     ]
