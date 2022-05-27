@@ -25,7 +25,7 @@ export default function Header(props) {
     <div className={css.header}>
       <Title />
       <div className={css.navigation}>
-        <h1>James J. Lu</h1>
+        <h1>James Lu</h1>
         <nav>
           {navLinks}
         </nav>
