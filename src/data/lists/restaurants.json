@@ -34,17 +34,17 @@
         {
             "rankSlotID": 1,
             "title": "Fantastic: First Choice",
-            "description": "Exceptional. Places that are worth traveling to. Would highly recommend to friends and family."
+            "description": "Places that are worth traveling to. Would highly recommend to friends and family."
         },
         {
             "rankSlotID": 2,
             "title": "Great",
-            "description": "Places that are fantastic if you are in the area, but are otherwise not particularly exceptional."
+            "description": "Places that are fantastic if you are in the area but are otherwise not particularly exceptional."
         },
         {
             "rankSlotID": 3,
             "title": "Fine",
-            "description": "Food is average or decent but not worth the price. May or may not be worth a visit."
+            "description": "Food is average or may be decent but not worth the price. May or may not be worth a visit."
         },
         {
             "rankSlotID": 4,
@@ -398,7 +398,7 @@
                 "Queens",
                 "Jackson Heights"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [
                 "orderahead",
                 "repeat"
@@ -6075,6 +6075,63 @@
             ],
             "orders": [
                 "Chicken & Rice Bowl+"
+            ]
+        },
+        {
+            "id": 336,
+            "name": "Namkeen",
+            "address": "338 Bedford Ave, Brooklyn, NY 11249",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Brooklyn",
+                "Williamsburg"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "counter"
+            ],
+            "orders": [
+                "Clucking Waffle Sandwich+",
+                "Tikkaville Sandwich"
+            ]
+        },
+        {
+            "id": 337,
+            "name": "Nyonya",
+            "address": "199 Grand St, New York, NY 10013",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Chinatown"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 338,
+            "name": "GAN-HOO BBQ",
+            "address": "3702 Main St 2nd FLOOR, Queens, NY 11354",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Queens",
+                "Flushing"
+            ],
+            "rankSlotID": 1,
+            "options": [
+                "dinein"
+            ],
+            "orders": [
+                "Wagyu Fried Rice+",
+                "Meat Lover's Stair Combo+"
             ]
         }
     ]

@@ -1871,6 +1871,23 @@
             "orders": [
                 "Peach Oolong Milk Tea w/ Boba; C/50%/0%"
             ]
+        },
+        {
+            "id": 111,
+            "name": "Debutea",
+            "address": "217 Thompson St, New York, NY 10012",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Greenwich Village"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Peach Oolong Tea Latte w/ Boba; C/50%/0%"
+            ]
         }
     ]
 }

@@ -503,6 +503,38 @@
             "orders": [
                 "Hell's Kitchen Sink Bowl+"
             ]
+        },
+        {
+            "id": 33,
+            "name": "Budapest Cafe",
+            "address": "1631 2nd Ave, New York, NY 10028",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Upper East Side"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": []
+        },
+        {
+            "id": 34,
+            "name": "Taiyaki NYC",
+            "address": "294 Bedford Ave, Brooklyn, NY 11249",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Brooklyn",
+                "Williamsburg"
+            ],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": [
+                "Beach, Please+"
+            ]
         }
     ]
 }
