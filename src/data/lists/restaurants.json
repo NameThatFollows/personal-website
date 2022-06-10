@@ -6133,6 +6133,26 @@
                 "Wagyu Fried Rice+",
                 "Meat Lover's Stair Combo+"
             ]
+        },
+        {
+            "id": 339,
+            "name": "Dark Side of the Moo",
+            "address": "339 W 44th St, New York, NY 10036",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Truffle Upagus Burger",
+                "Truffle Fries"
+            ]
         }
     ]
 }
