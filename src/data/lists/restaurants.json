@@ -6153,6 +6153,23 @@
                 "Truffle Upagus Burger",
                 "Truffle Fries"
             ]
+        },
+        {
+            "id": 340,
+            "name": "Banh",
+            "address": "942 Amsterdam Ave, New York, NY 10025",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Upper West Side"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
         }
     ]
 }
