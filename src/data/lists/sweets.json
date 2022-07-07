@@ -299,7 +299,7 @@
                 "Manhattan",
                 "Koreatown"
             ],
-            "rankSlotID": 1,
+            "rankSlotID": 2,
             "options": [],
             "orders": []
         },
@@ -535,6 +535,21 @@
             "orders": [
                 "Beach, Please+"
             ]
+        },
+        {
+            "id": 35,
+            "name": "Rice to Riches",
+            "address": "37 Spring St, New York, NY 10012",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Nolita"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
         }
     ]
 }

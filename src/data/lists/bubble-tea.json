@@ -1888,6 +1888,23 @@
             "orders": [
                 "Peach Oolong Tea Latte w/ Boba; C/50%/0%"
             ]
+        },
+        {
+            "id": 112,
+            "name": "Gong Cha",
+            "address": "200 Broadway Unit 1000, New York, NY 10038",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Financial District"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Oolong Tea Latte w/ Bubbles; C/50%/0%"
+            ]
         }
     ]
 }

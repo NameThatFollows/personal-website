@@ -6170,6 +6170,109 @@
                 "dinein"
             ],
             "orders": []
+        },
+        {
+            "id": 341,
+            "name": "Thai Villa",
+            "address": "5 E 19th St, New York, NY 10003",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Union Square"
+            ],
+            "rankSlotID": 1,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 342,
+            "name": "The Smith",
+            "address": "956 2nd Ave, New York, NY 10022",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown",
+                "East Midtown"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 343,
+            "name": "Schilling Restaurant & Bar",
+            "address": "109 Washington St, New York, NY 10006",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Financial District"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 344,
+            "name": "99 Favor Taste",
+            "address": "135-41 37th Ave, Queens, NY 11354",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Queens",
+                "Flushing"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 345,
+            "name": "Jongro BBQ",
+            "address": "22 W 32nd St 2nd floor, New York, NY 10001",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Koreatown"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 346,
+            "name": "Song' E Napule",
+            "address": "146 W Houston St, New York, NY 10012",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Greenwich Village"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
         }
     ]
 }
