@@ -1905,6 +1905,189 @@
             "orders": [
                 "Oolong Tea Latte w/ Bubbles; C/50%/0%"
             ]
+        },
+        {
+            "id": 113,
+            "name": "Tea Guys",
+            "address": "Albert Cuypstraat 61-H, 1072 CM Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Zuid",
+                "De Pijp"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Original Milk Tea w/ Bubbles; C/100%/100%"
+            ]
+        },
+        {
+            "id": 114,
+            "name": "Hey Cha Tea Company",
+            "address": "Van Leijenberghlaan 140, 1082 DC Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Zuid",
+                "Buitenveldert"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Zebra"
+            ]
+        },
+        {
+            "id": 115,
+            "name": "&Tea Yucha",
+            "address": "Grote Houtstraat 4, 2011 SN Haarlem, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Haarlem",
+                "Centrum"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "&Tea Hit"
+            ]
+        },
+        {
+            "id": 116,
+            "name": "Biu!Tea",
+            "address": "Van Baerlestraat 45hs, 1071 AP Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Zuid",
+                "Oud-Zuid"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Classic Boba Milk Tea; C/50%/0%"
+            ]
+        },
+        {
+            "id": 117,
+            "name": "I've Got Cha",
+            "address": "Van Woustraat 21A, 1074 AA Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Zuid",
+                "De Pijp"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Taro Dream"
+            ]
+        },
+        {
+            "id": 118,
+            "name": "Tea Guys",
+            "address": "Stationshal 4 C, 3511 CB Utrecht, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Utrecht (province)",
+                "Utrecht",
+                "Binnenstad",
+                "Utrecht Centraal Station"
+            ],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": [
+                "Original Taiwan Milk Tea; C/50%/0%"
+            ]
+        },
+        {
+            "id": 119,
+            "name": "Infinitea Bubble Tea Bar",
+            "address": "Dominee Jan Scharpstraat 298, Unit 51 *Markthal*, 3011 GZ Rotterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Rotterdam-The Hague Metro Area",
+                "Rotterdam",
+                "Centrum"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Original Milk Tea w/ Bubbles; C/100%/100%"
+            ]
+        },
+        {
+            "id": 120,
+            "name": "Tea Up",
+            "address": "Hoogstraat 117b, 3011 PL Rotterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Rotterdam-The Hague Metro Area",
+                "Rotterdam",
+                "Centrum"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Signature Oolong w/ Pears; C/50%/0%"
+            ]
+        },
+        {
+            "id": 121,
+            "name": "Cutea",
+            "address": "Schouwburgplein 11, 3012 CL Rotterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Rotterdam-The Hague Metro Area",
+                "Rotterdam",
+                "Centrum"
+            ],
+            "rankSlotID": 1,
+            "options": [],
+            "orders": [
+                "Roasted Oolong Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 122,
+            "name": "Tea Chef",
+            "address": "Wagenstraat 144, 2512 BA Den Haag, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Rotterdam-The Hague Metro Area",
+                "The Hague",
+                "Centrum",
+                "Chinatown"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Strawberry Matcha Latte w/ Boba; C/100%/100%"
+            ]
+        },
+        {
+            "id": 123,
+            "name": "Imi Bubble Tea Shop",
+            "address": "Monnikenstraat 14, 1012 BP Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Centrum",
+                "De Wallen"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": [
+                "Classic Bubble Milk Tea; C/50%/0%"
+            ]
         }
     ]
 }

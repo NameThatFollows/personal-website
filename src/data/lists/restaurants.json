@@ -6273,6 +6273,272 @@
                 "dinein"
             ],
             "orders": []
+        },
+        {
+            "id": 347,
+            "name": "Burger Bar",
+            "address": "62B, Eerste van der Helststraat, 1072 NX Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Zuid",
+                "De Pijp"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": [
+                "The Real Bite+",
+                "Truffle & Parmesan Fries+"
+            ]
+        },
+        {
+            "id": 348,
+            "name": "The Pancake Bakery",
+            "address": "Prinsengracht 191, 1015 DS Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Centrum",
+                "Canal Belt West"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": [
+                "Thai Pancake"
+            ]
+        },
+        {
+            "id": 349,
+            "name": "FEBO",
+            "address": "Amsteldijk 132-133, 1078 RT Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Zuid",
+                "Rivierenbuurt"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "counter"
+            ],
+            "orders": [
+                "Grillburger Speciaal",
+                "Frites Speciaal+"
+            ]
+        },
+        {
+            "id": 350,
+            "name": "Bunsbar",
+            "address": "Albert Cuypstraat 268, 1073 BR Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Zuid",
+                "De Pijp"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "counter"
+            ],
+            "orders": [
+                "Korean Fried Chicken Bao+"
+            ]
+        },
+        {
+            "id": 351,
+            "name": "Taverne de Visscher",
+            "address": "Havenbuurt 22, 1156 AM Marken, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Marken"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 352,
+            "name": "Sea Palace",
+            "address": "Oosterdokskade 8, 1011 AE Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Centrum",
+                "Lastage"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "dinein"
+            ],
+            "orders": [
+                "Signature menu"
+            ]
+        },
+        {
+            "id": 353,
+            "name": "Spaarne66",
+            "address": "Spaarne 66, 2011 CK Haarlem, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Haarlem",
+                "Centrum"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 354,
+            "name": "Asia Street Cooking",
+            "address": "Catharijne Esplanade 2, 3511 WK Utrecht, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Utrecht (Province)",
+                "Utrecht",
+                "Binnenstad",
+                "Utrecht Centraal Station"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 355,
+            "name": "Ekmekci Doner",
+            "address": "Dominee Jan Scharpstraat 298, 3011 GZ Rotterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Rotterdam-The Hague Metro Area",
+                "Rotterdam",
+                "Centrum",
+                "Markthal"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "counter"
+            ],
+            "orders": [
+                "The Lion King+"
+            ]
+        },
+        {
+            "id": 356,
+            "name": "FEBO",
+            "address": "Reguliersbreestraat 38, 1017 CN Amsterdam, Netherlands",
+            "locale": [
+                "Netherlands",
+                "Amsterdam Metro Area",
+                "Amsterdam",
+                "Centrum",
+                "Canal Belt South"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "counter"
+            ],
+            "orders": []
+        },
+        {
+            "id": 357,
+            "name": "John's of Bleecker St",
+            "address": "278 Bleecker St, New York, NY 10014",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "West Village"
+            ],
+            "rankSlotID": 1,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 358,
+            "name": "Fortune Bowl",
+            "address": "746 9th Ave, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "orderahead"
+            ],
+            "orders": []
+        },
+        {
+            "id": 359,
+            "name": "ViceVersa",
+            "address": "325 W 51st St, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 360,
+            "name": "Magdalene",
+            "address": "524 Lorimer St, Brooklyn, NY 11211",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Brooklyn",
+                "Williamsburg"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 361,
+            "name": "2 Bros Pizza",
+            "address": "542 9th Ave, New York, NY 10018",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "counter"
+            ],
+            "orders": []
         }
     ]
 }
