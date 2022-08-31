@@ -2088,6 +2088,41 @@
             "orders": [
                 "Classic Bubble Milk Tea; C/50%/0%"
             ]
+        },
+        {
+            "id": 124,
+            "name": "iCha Boba",
+            "address": "12-07 Jackson Ave Store A, Queens, NY 11101",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Queens",
+                "Long Island City",
+                "Hunters Point"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Black Milk Tea w/ Boba; C/50%/0%"
+            ]
+        },
+        {
+            "id": 125,
+            "name": "FIFTYLAN",
+            "address": "1261 Broadway Studio 814, New York, NY 10001",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Koreatown"
+            ],
+            "rankSlotID": 2,
+            "options": [],
+            "orders": [
+                "Golden Bubble Milk Tea; C/50%/0%"
+            ]
         }
     ]
 }

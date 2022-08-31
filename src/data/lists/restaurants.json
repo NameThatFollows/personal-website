@@ -6539,6 +6539,77 @@
                 "counter"
             ],
             "orders": []
+        },
+        {
+            "id": 362,
+            "name": "Hunan House",
+            "address": "40 W 56th St, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 363,
+            "name": "Norma Hell's Kitchen",
+            "address": "801 9th Ave, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "dinein"
+            ],
+            "orders": []
+        },
+        {
+            "id": 364,
+            "name": "Pret a Manger",
+            "address": "825 8th Ave, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 3,
+            "options": [
+                "counter"
+            ],
+            "orders": []
+        },
+        {
+            "id": 365,
+            "name": "Tradisyon",
+            "address": "790 9th Ave, New York, NY 10019",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Hell's Kitchen"
+            ],
+            "rankSlotID": 2,
+            "options": [
+                "orderahead"
+            ],
+            "orders": [
+                "Pork Adobo+",
+                "Tinapa Croquetas+"
+            ]
         }
     ]
 }

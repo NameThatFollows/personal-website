@@ -550,6 +550,21 @@
             "rankSlotID": 3,
             "options": [],
             "orders": []
+        },
+        {
+            "id": 36,
+            "name": "Van Leeuwen",
+            "address": "1250 6th Ave, New York, NY 10020",
+            "locale": [
+                "USA",
+                "NYC Metro Area",
+                "New York City",
+                "Manhattan",
+                "Midtown"
+            ],
+            "rankSlotID": 3,
+            "options": [],
+            "orders": []
         }
     ]
 }
