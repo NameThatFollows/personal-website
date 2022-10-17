@@ -1,59 +1,61 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React from "react";
+import { graphql } from "gatsby";
 
-import Footer from './Footer';
-import Header from './Header';
-import ListSection from './ListSection';
-import * as css from './List.module.css';
-import Autocomplete from 'react-autocomplete';
-import isSubsequence from '../utils/subsequence';
-
+import Header from "./Header";
+import Footer from "./Footer";
+import ListSection from "./ListSection";
+import * as css from "./List.module.css";
 
 export default function List({ data }) {
-  const [searchTerm, setSearchTerm] = React.useState('');
   const [checkedFilters, setCheckedFilters] = React.useState(new Set());
-  const node = data.allListsJson.nodes[0];
-  console.log(node);
-  const organizedList = {}
-  const rankSlots = {}
-  for (const rankSlot of node.rankSlots) {
-    organizedList[rankSlot.rankSlotID] = [];
-    rankSlots[rankSlot.rankSlotID] = rankSlot;
-  }
+  const listMetadata = data.allListsJson.nodes[0];
 
   const optionSymbolMap = {};
-  const optionFilters = new Set();
-  for (const option of Object.values(node.options)) {
+  for (const option of listMetadata.options) {
     optionSymbolMap[option.tag] = {
       symbol: option.symbol,
+      tag: option.tag,
       tooltip: option.title,
     };
   }
 
-  const uniqueLocales = new Set();
+  const placeSections = new Array(listMetadata.rankSlots.length).fill([]);
+  data.allMongodbListdataPlaces.group.forEach((group) => {
+    const updatedNodes = group.nodes.map((node) => {
+      node.symbols = [];
+      if (node.visitCounter) {
+        node.symbols.push(optionSymbolMap["visitCounter"]);
+      }
+      if (node.visitDineIn) {
+        node.symbols.push(optionSymbolMap["visitDineIn"]);
+      }
+      if (node.visitOrderAhead) {
+        node.symbols.push(optionSymbolMap["visitOrderAhead"]);
+      }
+      if (node.visitRepeat) {
+        node.symbols.push(optionSymbolMap["visitRepeat"]);
+      }
+      return node;
+    });
+    placeSections[group.distinct[0] - 1] = updatedNodes;
+  });
 
-  for (const item of node.items) {
-    const rawLocaleString = item.locale.reduce((string, loc, index) => {
-      string += (index === 0 ? loc : " > " + loc);
-      uniqueLocales.add(string);
-      return string;
-    }, "");
-    item["rawLocaleString"] = rawLocaleString;
-    item["symbols"] = item.options.sort().map(tag => optionSymbolMap[tag]);
-    organizedList[item.rankSlotID].push(item);
+  const organizedList = {};
+  const rankSlots = {};
+  for (const rankSlot of listMetadata.rankSlots) {
+    organizedList[rankSlot.rankSlotID] = [];
+    rankSlots[rankSlot.rankSlotID - 1] = rankSlot;
   }
 
-  const localeSearch = (searchTerm) => setSearchTerm(searchTerm);
-
-  const listSections = Object.keys(organizedList).map((rankSlotID, index) => {
+  const listSections = placeSections.map((places, index) => {
     return (
-      <div key={rankSlotID}>
+      <div key={index}>
         <ListSection
-          searchTerm={searchTerm}
-          rankSlotName={rankSlots[rankSlotID]}
-          rankSlot={organizedList[rankSlotID]}
+          rankSlotName={rankSlots[index]}
+          places={places}
+          symbols={optionSymbolMap}
           filters={checkedFilters}
-          localeSearch={localeSearch} />
+        />
         {index < Object.keys(organizedList).length - 1 ? <hr /> : null}
       </div>
     );
@@ -69,59 +71,31 @@ export default function List({ data }) {
     setCheckedFilters(newSet);
   };
 
-  const filters = Object.values(node.options).map((option, index) => {
+  const filters = Object.values(listMetadata.options).map((option, index) => {
     return (
       <div className={css.filter} key={index}>
-        <input type="checkbox" id={option.tag} name={option.tag} onChange={(e) => updateFilters(e.target.name, e.target.checked)} />
-        <label htmlFor={option.tag} title={option.subtitle}>{option.symbol} {option.title}</label>
+        <input
+          type="checkbox"
+          id={option.tag}
+          name={option.tag}
+          onChange={(e) => updateFilters(e.target.name, e.target.checked)}
+        />
+        <label htmlFor={option.tag} title={option.subtitle}>
+          {option.symbol} {option.title}
+        </label>
       </div>
     );
   });
 
   return (
-    <div className='page'>
-      <Header active='Lists' />
-      <div className='content'>
+    <div className="page">
+      <Header active="Lists" />
+      <div className="content">
         <div className={css.list}>
           <header className={css.listHeader}>
-            <h1>{node.name}</h1>
-            <Autocomplete
-              getItemValue={(item) => item}
-              items={Array.from(uniqueLocales).sort()}
-              renderItem={(item, isHighlighted) =>
-                <div
-                  key={item}
-                  style={{
-                    background: isHighlighted ? '#EEEEEE' : '',
-                    cursor: 'default',
-                    padding: '5px 10px'
-                  }}>
-                  {item}
-                </div>
-              }
-              menuStyle={{
-                background: 'white',
-                boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)',
-                fontSize: '11pt',
-                lineHeight: 1.4,
-                position: 'absolute',
-                maxHeight: '50%',
-                overflowY: 'auto',
-                boxSizing: 'border-box'
-              }}
-              inputProps={{
-                placeholder: 'Filter Regions',
-              }}
-              value={searchTerm}
-              shouldItemRender={(item, value) => isSubsequence(value, item)}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              onSelect={(value) => setSearchTerm(value)}
-            />
+            <h1>{listMetadata.name}</h1>
+            <div className={css.filters}>{filters}</div>
           </header>
-          <div className={css.filters}>
-            {filters}
-          </div>
-          <p className={css.additionalInfo}>{node.additionalInfo}</p>
           {listSections}
         </div>
       </div>
@@ -131,14 +105,13 @@ export default function List({ data }) {
 }
 
 export const query = graphql`
-  query($slug: String) {
-    allListsJson(filter: {slug: {eq: $slug}}) {
+  query ($slug: String, $type: String) {
+    allListsJson(filter: { slug: { eq: $slug } }) {
       nodes {
         id
         slug
         name
         description
-        additionalInfo
         options {
           tag
           title
@@ -150,15 +123,35 @@ export const query = graphql`
           title
           description
         }
-        items {
+      }
+    }
+    allMongodbListdataPlaces(filter: { type: { eq: $type } }) {
+      group(field: rank) {
+        nodes {
           id
           name
-          address
-          locale
-          rankSlotID
-          orders
-          options
+          rank
+          items {
+            hot
+            ice
+            name
+            recommended
+            sugar
+            toppings
+          }
+          location {
+            address
+            geojson {
+              type
+              coordinates
+            }
+          }
+          visitCounter
+          visitDineIn
+          visitOrderAhead
+          visitRepeat
         }
+        distinct(field: rank)
       }
     }
   }

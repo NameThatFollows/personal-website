@@ -1,38 +1,46 @@
 import React from "react";
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql, Link } from "gatsby";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
-import * as css from './lists.module.css'
+import * as css from "./lists.module.css";
 
 export default function Lists({ data }) {
-  data.allListsJson.nodes.sort((a, b) => b.items.length - a.items.length);
+  const listCounts = data.allMongodbListdataPlaces.group.reduce(
+    (dict, value) => {
+      dict[value.distinct[0]] = value.totalCount;
+      return dict;
+    },
+    {}
+  );
+  data.allListsJson.nodes.sort(
+    (a, b) => listCounts[b.type] - listCounts[a.type]
+  );
   const lists = data.allListsJson.nodes.map((node) => {
     const listName = node.name;
     const listDescription = node.description;
-    const listLength = node.items.length;
     return (
       <Link to={node.slug} className={css.listTile} key={node.id}>
         <div className={css.listTileContent}>
           <h1>{listName}</h1>
-          <h2>{listLength} Items</h2>
+          <h2>{listCounts[node.type]} Items</h2>
           <p>{listDescription}</p>
         </div>
-        <Img fluid={node.background.childImageSharp.fluid} alt={listName}></Img>
+        <GatsbyImage
+          image={node.background.childImageSharp.gatsbyImageData}
+          alt={listName}
+        />
         <div className={css.listTileImageOverlay} />
       </Link>
     );
   });
 
   return (
-    <div className='page'>
-      <Header active='Lists' />
-      <div className='content'>
-        <div className={css.listTiles}>
-          {lists}
-        </div>
+    <div className="page">
+      <Header active="Lists" />
+      <div className="content">
+        <div className={css.listTiles}>{lists}</div>
       </div>
       <Footer />
     </div>
@@ -40,24 +48,31 @@ export default function Lists({ data }) {
 }
 
 export const query = graphql`
-  query {
+  {
     allListsJson {
       nodes {
         id
         name
         description
         slug
+        type
         background {
           childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 300, cropFocus: CENTER) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(
+              width: 500
+              height: 300
+              transformOptions: { cropFocus: CENTER }
+              layout: CONSTRAINED
+            )
           }
-        }
-        items {
-          name
         }
       }
     }
+    allMongodbListdataPlaces {
+      group(field: type) {
+        totalCount
+        distinct(field: type)
+      }
+    }
   }
-`
+`;

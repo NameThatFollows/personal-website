@@ -3,28 +3,27 @@
 
 .listHeader {
     display: flex;
-    margin: 0 0 10px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 0 0 10px;
     gap: 10px;
 }
 
 .listHeader h1 {
     margin-right: 30px;
+    white-space: nowrap;
 }
 
 .listHeader div {
-    flex-grow: 1;
-    max-width: 400px;
     min-width: 200px;
 }
 
 .filters {
-    display: inline-flex;
-    gap: 20px;
-    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px 20px;
+    margin-bottom: 15px;
     width: 100%;
-    justify-content: flex-end;
 }
 
 .filters .filter {
@@ -33,14 +32,6 @@
 
 .filters .filter label {
     margin-left: 5px;
-}
-
-.listHeader div input:not([type='checkbox']) {
-    padding: 10px;
-    width: 100%;
-    flex-grow: 2;
-    font-family: inherit;
-    box-sizing: border-box;
 }
 
 .list hr {

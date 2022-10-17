@@ -8,25 +8,24 @@ This is the source code for my personal website. The site uses Gatsby to generat
 
 1. **Install Dependencies**
 
-    Gatsby CLI should be installed globally to make development easier.
+   Gatsby CLI should be installed globally to make development easier.
 
-    ```shell
-    npm install -g gatsby-cli
-    git clone <repository>
-    cd personal-website
-    npm install
-    ```
+   ```shell
+   npm install -g gatsby-cli
+   git clone <repository>
+   cd personal-website
+   npm install
+   ```
 
 2. **Start Development Server**
 
-    The following launches the development server and supports auto-reloading when changes are made.
+   The following launches the development server and supports auto-reloading when changes are made.
 
-    ```shell
-    gatsby develop
-    ```
+   ```shell
+   gatsby develop
+   ```
 
-    The site will run at `http://localhost:8000`. The graphql interface will launch at `http://localhost:8000:___graphql` if data querying is needed.
-
+   The site will run at `http://localhost:8000`. The graphql interface will launch at `http://localhost:8000:___graphql` if data querying is needed.
 
 ## File Structure
 
@@ -77,13 +76,12 @@ A rough description of the important files and folders in this repo.
 
 6.  **`gatsby-node.js`**: This file stores configurations of the site's build process.
 
-10. **`package-lock.json`** Automatically generated file based on the exact versions of the npm dependencies that were installed for your project.
+7.  **`package-lock.json`** Automatically generated file based on the exact versions of the npm dependencies that were installed for your project.
 
-11. **`package.json`**: Node.js manifest file.
+8.  **`package.json`**: Node.js manifest file.
 
-12. **`README.md`**: This file.
+9.  **`README.md`**: This file.
 
 ## Build
-
 
 ## Deploy

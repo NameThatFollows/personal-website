@@ -4,6 +4,7 @@ title: Coursework
 ---
 
 ## Georgia Institute of Technology
+
 - CS 1331: Intro to Object-Oriented Programming
 - CS 1332: Data Structures & Algorithms
 - CS 2051: Honors Discrete Math

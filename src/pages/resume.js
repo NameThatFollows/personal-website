@@ -1,31 +1,30 @@
 import React from "react";
-import { graphql } from 'gatsby';
+import { graphql } from "gatsby";
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-import * as css from "./resume.module.css"
+import * as css from "./resume.module.css";
 
 export default function Resume({ data }) {
-  console.log(data);
-
   const sections = data.allMarkdownRemark.nodes.map((node) => {
     return (
       <div key={node.id} className={css.resumeSection}>
         <div className={css.resumeSectionTitleContainer}>
           <h1 className={css.resumeSectionTitle}>{node.frontmatter.title}</h1>
         </div>
-        <div className={css.resumeSectionContent} dangerouslySetInnerHTML={{ __html: node.html }} />
+        <div
+          className={css.resumeSectionContent}
+          dangerouslySetInnerHTML={{ __html: node.html }}
+        />
       </div>
     );
   });
 
   return (
-    <div className='page'>
-      <Header active='Résumé' />
-      <div className='content'>
-        {sections}
-      </div>
+    <div className="page">
+      <Header active="Résumé" />
+      <div className="content">{sections}</div>
       <Footer />
     </div>
   );
@@ -34,16 +33,8 @@ export default function Resume({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      sort: {
-        fields: fileAbsolutePath
-      },
-      filter: {
-        frontmatter: {
-          type: {
-            in: ["resume"]
-          }
-        }
-      }
+      sort: { fields: fileAbsolutePath }
+      filter: { frontmatter: { type: { in: ["resume"] } } }
     ) {
       nodes {
         id
@@ -54,4 +45,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

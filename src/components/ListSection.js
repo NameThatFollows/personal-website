@@ -1,24 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import ListItem from './ListItem';
-import isSubsequence from '../utils/subsequence';
-import * as css from './ListSection.module.css';
+import ListItem from "./ListItem";
+import * as css from "./ListSection.module.css";
 
 export default function ListSection(props) {
-  const rankSlotItems = props.rankSlot.reduce((output, item) => {
-    const options = new Set(item.options);
-    if ((props.filters.size == 0
-      || Array.from(props.filters).every(filter => options.has(filter)))
-      && isSubsequence(props.searchTerm, item.rawLocaleString)) {
+  const rankSlotPlaces = props.places.reduce((output, place) => {
+    const options = new Set(place.symbols.map((symbol) => symbol.tag));
+    if (
+      props.filters.size === 0 ||
+      Array.from(props.filters).every((filter) => options.has(filter))
+    ) {
       output.push(
         <ListItem
-          key={item.id}
-          name={item.name}
-          symbols={item.symbols}
-          locale={item.locale}
-          address={item.address}
-          orders={item.orders}
-          localeSearch={props.localeSearch} />
+          key={place.id}
+          id={place.id}
+          name={place.name}
+          location={place.location}
+          items={place.items}
+          symbols={place.symbols}
+        />
       );
     }
     return output;
@@ -31,8 +31,8 @@ export default function ListSection(props) {
         <p>{props.rankSlotName.description}</p>
       </header>
       <div className={css.listSectionItems}>
-        {rankSlotItems.length > 0
-          ? rankSlotItems
+        {rankSlotPlaces.length > 0
+          ? rankSlotPlaces
           : "No items in this category"}
       </div>
     </div>

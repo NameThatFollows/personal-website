@@ -4,6 +4,7 @@ title: "Education"
 ---
 
 ## Georgia Institute of Technology
+
 > Aug 2016 - Dec 2019 // Atlanta, GA
 
 - B.S. in Computer Science

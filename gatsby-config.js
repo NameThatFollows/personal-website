@@ -4,12 +4,16 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-json`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -41,9 +45,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'data',
+        name: "data",
         path: `${__dirname}/src/data`,
-      }
-    }
+      },
+    },
+    {
+      resolve: "gatsby-source-mongodb",
+      options: {
+        connectionString: process.env.MONGODB_CONN_STRING,
+        dbName: "listdata",
+        collection: ["places"],
+        clientOptions: {
+          poolSize: 1,
+          useUnifiedTopology: true,
+        },
+      },
+    },
   ],
-}
+};
