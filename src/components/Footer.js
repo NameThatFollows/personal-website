@@ -14,14 +14,14 @@ import * as css from "./Footer.module.css";
 export default function Footer() {
   const links = [
     {
-      name: "Github",
-      path: "https://www.github.com/namethatfollows",
-      icon: FaGithub,
-    },
-    {
       name: "Email",
       path: "mailto:hello@james.lu",
       icon: FaRegEnvelope,
+    },
+    {
+      name: "Github",
+      path: "https://www.github.com/namethatfollows",
+      icon: FaGithub,
     },
     {
       name: "Spotify",

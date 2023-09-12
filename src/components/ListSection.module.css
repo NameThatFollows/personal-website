@@ -11,7 +11,11 @@
 }
 
 .listSection header {
-    margin-bottom: 10px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 .listSectionItems {
