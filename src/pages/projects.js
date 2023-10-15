@@ -1,52 +1,33 @@
 import React from "react";
-import { graphql } from "gatsby";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Project from "../components/Project";
+import AtlantaCodeViolations from "./projects/atlantacodeviolations";
+import { randInt } from "e";
+import Ballot from "./projects/ballot";
+import CavalierBus from "./projects/cavalierbus";
+import GraphicalClockin from "./projects/graphicalclockin";
+import HersheyNHS from "./projects/hersheynhs";
+import { si } from "../utils/singular";
 
-export default function Projects({ data }) {
-  const projects = data.allMarkdownRemark.edges.map(({ node }, index) => {
-    return (
-      <div key={node.id}>
-        {index === 0 ? <></> : <hr />}
-        <Project node={node} />
-      </div>
-    );
-  });
+export default function Projects() {
+  let projects = [
+    <AtlantaCodeViolations key="atlantacodeviolations" />,
+    <Ballot key="ballot" />,
+    <GraphicalClockin key="graphicalclockin" />,
+    <CavalierBus key="cavalierbus" />,
+    <HersheyNHS key="hersheynhs" />,
+  ];
+
+  if (si) {
+    projects = projects.at(randInt(0, projects.length - 1));
+  }
+
   return (
     <div className="page">
-      <Header active="Projects" />
-      <div className="content">{projects}</div>
+      <Header active="/projects" />
+      {projects}
       <Footer />
     </div>
   );
 }
-
-export const query = graphql`
-  query {
-    allMarkdownRemark(
-      filter: { frontmatter: { type: { in: ["project"] } } }
-      sort: { order: DESC, fields: [frontmatter___endDate] }
-    ) {
-      edges {
-        node {
-          id
-          html
-          frontmatter {
-            endDate(formatString: "MMM YYYY")
-            startDate(formatString: "MMM YYYY")
-            title
-            type
-            link
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(layout: FULL_WIDTH)
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`;

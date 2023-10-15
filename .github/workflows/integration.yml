@@ -22,10 +22,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build gatsby pages
+      - name: Build gatsby pages (james.lu)
         run: npm run build
         env:
           MONGODB_CONN_STRING: ${{ secrets.MONGODB_CONN_STRING }}
 
       - name: Move to web directory
         run: rm -rf ~/personal-website/public; cp -r ./public ~/personal-website
+
+      - name: Build gatsby pages (jame.lu)
+        run: npm run build
+        env:
+          MONGODB_CONN_STRING: ${{ secrets.MONGODB_CONN_STRING }}
+          GATSBY_SINGULAR: 1
+
+      - name: Move to web directory
+        run: rm -rf ~/personal-website-s/public; cp -r ./public ~/personal-website-s

@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 
 import * as css from "./Header.module.css";
+import { s } from "../utils/singular";
 
 export default function Header(props) {
   const pages = [
     { name: "Home", path: "/" },
-    { name: "Projects", path: "/projects" },
-    { name: "Lists", path: "/lists" },
+    { name: `Project${s}`, path: "/projects" },
+    { name: `List${s}`, path: "/lists" },
     { name: "Résumé", path: "/resume" },
   ];
   const navLinks = pages.map((pageInfo) => {
@@ -15,7 +16,7 @@ export default function Header(props) {
       <li key={pageInfo.name}>
         <Link
           to={pageInfo.path}
-          className={props.active === pageInfo.name ? css.active : ""}
+          className={props.active === pageInfo.path ? css.active : ""}
         >
           {pageInfo.name}
         </Link>
@@ -25,13 +26,13 @@ export default function Header(props) {
   return (
     <div className={css.header}>
       <div className={css.navigation}>
-        <h1>James Lu</h1>
+        <h1>Jame{s} Lu</h1>
         <nav>{navLinks}</nav>
       </div>
     </div>
   );
 }
 
-export function Head() {
-  return <title>James Lu // @NameThatFollows</title>;
+export const Head = () => {
+  return <title>Jame{s} Lu // @NameThatFollow{s}</title>;
 }

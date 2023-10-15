@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 
 import * as css from "./Footer.module.css";
+import { s, si } from "../utils/singular";
 
 export default function Footer() {
   const links = [
@@ -62,7 +63,7 @@ export default function Footer() {
         </IconContext.Provider>
       </div>
       <p className={css.footerText}>
-        &#169; {new Date().getFullYear()} James Lu. All rights reserved.
+        &#169; {new Date().getFullYear()} Jame{s} Lu. {si ? "Right" : "All rights"} reserved.
       </p>
     </div>
   );

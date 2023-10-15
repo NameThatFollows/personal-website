@@ -5,6 +5,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ListSection from "./ListSection";
 import * as css from "./List.module.css";
+import { si } from "../utils/singular";
+import { randInt } from "e";
 
 export default function List({ data }) {
   const [checkedFilters, setCheckedFilters] = React.useState(new Set());
@@ -47,7 +49,7 @@ export default function List({ data }) {
     rankSlots[rankSlot.rankSlotID - 1] = rankSlot;
   }
 
-  const listSections = placeSections.map((places, index) => {
+  let listSections = placeSections.map((places, index) => {
     return (
       <div key={index}>
         <ListSection
@@ -56,10 +58,13 @@ export default function List({ data }) {
           symbols={optionSymbolMap}
           filters={checkedFilters}
         />
-        {index < Object.keys(organizedList).length - 1 ? <hr /> : null}
+        {!si && index < Object.keys(organizedList).length - 1 ? <hr /> : null}
       </div>
     );
   });
+  if (si) {
+    listSections = listSections.at(randInt(0, listSections.length - 1));
+  }
 
   const updateFilters = (name, on) => {
     const newSet = new Set(checkedFilters);
@@ -89,12 +94,12 @@ export default function List({ data }) {
 
   return (
     <div className="page">
-      <Header active="Lists" />
+      <Header active="/lists" />
       <div className="content">
         <div className={css.list}>
           <header className={css.listHeader}>
-            <h1>{listMetadata.name}</h1>
-            <div className={css.filters}>{filters}</div>
+            <h1>{si ? listMetadata.sname : listMetadata.name}</h1>
+            {si ? null : <div className={css.filters}>{filters}</div>}
           </header>
           {listSections}
         </div>
@@ -111,7 +116,7 @@ export const query = graphql`
         id
         slug
         name
-        description
+        sname
         options {
           tag
           title
@@ -122,6 +127,7 @@ export const query = graphql`
           rankSlotID
           title
           description
+          sdescription
         }
       }
     }

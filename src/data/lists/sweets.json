@@ -1,8 +1,10 @@
 {
   "slug": "/lists/sweets",
   "type": "dessert",
-  "name": "Sweets/Desserts",
-  "description": "All of the places that exclusively serve sweets or have a significant dessert offering.",
+  "name": "Sweets/Bakeries",
+  "sname": "Sweet/Bakery",
+  "description": "All of the places that serve sweets, desserts, and other baked goods.",
+  "sdescription": "The place that serves something sweet, a dessert, or a baked good.",
   "background": "../../images/desserts.jpg",
   "options": [
     {
@@ -34,22 +36,26 @@
     {
       "rankSlotID": 1,
       "title": "Fantastic: First Choice",
-      "description": "Exceptional. Places that are worth traveling to. Would highly recommend to friends and family."
+      "description": "Exceptional. Places that are worth travelling to. Would highly recommend to friends and family.",
+      "sdescription": "Exceptional. A place that is worth travelling to. Would highly recommend to a friend or family member."
     },
     {
       "rankSlotID": 2,
       "title": "Great",
-      "description": "Places that are fantastic if you are in the area, but are otherwise not particularly exceptional."
+      "description": "Places that are fantastic if you are in the area but are otherwise not particularly exceptional.",
+      "sdescription": "A place that is fantastic if you are in the area but is otherwise not particularly exceptional."
     },
     {
       "rankSlotID": 3,
       "title": "Fine",
-      "description": "Food is average or decent but not worth the price. May or may not be worth a visit."
+      "description": "Food is average or decent but not worth the price. May or may not be worth a visit.",
+      "sdescription": "Food is average or decent but not worth the price. May or may not be worth a visit."
     },
     {
       "rankSlotID": 4,
       "title": "Visited",
-      "description": "Have eaten at before, but would definitely not recommend."
+      "description": "Have eaten at before, but would definitely not recommend.",
+      "sdescription": "Have eaten at before, but would definitely not recommend."
     }
   ]
 }
