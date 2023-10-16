@@ -11,7 +11,7 @@ export default function CavalierBus() {
 
   return (
     <Project
-      title="Hampton Roads Bus Map"
+      title={`Hampton Road${s} Bus Map`}
       dates="Oct 2018 - Dec 2018"
       link="https://github.com/NameThatFollows/CavalierBus"
       featuredImage={image}

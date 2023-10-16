@@ -1,11 +1,11 @@
 {
-  "slug": "/lists/sweets",
-  "type": "dessert",
-  "name": "Sweets/Desserts",
-  "sname": "Sweet/Dessert",
-  "description": "All of the places I've been to that serve sweets or desserts.",
-  "sdescription": "A place that serves something sweet or a dessert.",
-  "background": "../../images/desserts.jpg",
+  "slug": "/lists/cafes",
+  "type": "cafe",
+  "name": "Cafés/Bakeries",
+  "sname": "Café/Bakery",
+  "description": "All of the places I've been to that serve coffee/tea and light meals.",
+  "sdescription": "A place that serves coffee/tea and a light meal.",
+  "background": "../../images/cafes.jpg",
   "options": [
     {
       "tag": "visitDineIn",
