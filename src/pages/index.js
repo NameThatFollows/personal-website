@@ -9,7 +9,7 @@ export default function Home() {
     <div className="page">
       <Header active="/" />
       <div className="content">
-        <p>Hello there! I'm Jame{s} Lu, 盧(卢)杰明 (he/him/他)!</p>
+        <p>Hello there! I'm Jame{s} Lu, 盧杰明 (he/him)!</p>
         <p>I am a software engineer based in <a href="https://www.google.com/maps/place/New+York,+NY/@40.6997557,-74.086227,11.5z/data=!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127848!4d-74.0059662" target="_blank" rel="noreferrer"> New York City</a>. I currently write software on the Cloud Automation team at <a href="https://www.mongodb.com/">MongoDB</a>.</p>
 
         <p>I studied Computer Science at <a href="https://www.gatech.edu" target="_blank" rel="noreferrer">Georgia Tech</a> in <a href="https://goo.gl/maps/9cDs11jx2ED2" target="_blank" rel="noreferrer">Atlanta, GA</a>, where I also helped organize {a} hackathon{s}, worked tech support, and dabbled in machine learning and reverse engineering.</p>

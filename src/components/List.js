@@ -100,6 +100,7 @@ export default function List({ data }) {
           <header className={css.listHeader}>
             <h1>{si ? listMetadata.sname : listMetadata.name}</h1>
             {si ? null : <div className={css.filters}>{filters}</div>}
+            <span>+ indicates a recommended food item.</span>
           </header>
           {listSections}
         </div>

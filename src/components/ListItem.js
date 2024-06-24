@@ -4,7 +4,11 @@ import * as css from "./ListItem.module.css";
 
 export default function ListItem(props) {
   const itemList = props.items.map((item) => {
-    return <li key={item.name}>{item.name}</li>;
+    let orderListItemText = item.name;
+    if (item.recommended) {
+      orderListItemText += "+";
+    }
+    return <li key={item.name}>{orderListItemText}</li>;
   });
 
   const symbolList = props.symbols.map((symbolData) => {
